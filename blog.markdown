@@ -3,5 +3,4 @@ layout: home
 title: Blog
 permalink: /blog/
 ---
-Hello
-
+Halllllllllllooooooo this is the blog page
