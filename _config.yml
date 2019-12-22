@@ -33,7 +33,6 @@ github_username:  liua13
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
