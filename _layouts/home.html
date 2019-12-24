@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-<article class="post">
+<head>
+<script type="text/javascript" src="{{ '/assets/JS/index.js' | relative_url }}"></script>
+</head>
+<body>
+<div id="background">
+	<p id="animate"><span id="greetings"></span>
+			<span id="cursor">|</span></p>
+</div>
+ <div> {{ content }} </div>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
+</body>

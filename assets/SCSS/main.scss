@@ -1,11 +1,70 @@
 ---
 ---
-@import url("assets/SCSS/theme.scss");
+@import "theme.scss";
 
-.site-title {
-	font-family: "Open Sans Condensed";
+a{
+	text-decoration: none;
 }
 
-#activeNav {
-	text-decoration: underline;
+.site-title {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+// *** nav bar ***
+.site-nav{
+	float: right;
+	font-family: "Open Sans Condensed";
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 15px;
+	margin-top: 22px;
+
+	// Gaps between nav items, but not on the last one
+    :not(:last-child) {
+      margin-right: 20px;
+    }
+}
+
+// checkbox for hamburger
+#nav-trigger {
+	display: none;
+}
+
+.menu-icon {
+	text-align: center;
+	vertical-align: middle;
+}
+
+// if browser is big
+@media only screen and (min-width: 701px) {
+	.site-nav{
+		width: 200px;
+	}
+
+	.menu-icon {
+		display: none;
+	}
+
+	.trigger {
+		display: inline-block;
+	}
+
+}
+
+// if browser is small
+@media only screen and (max-width: 700px) {
+	.site-nav{
+		width: 25px;
+	}
+
+	.menu-icon {
+		display: inline-block;
+
+	}
+
+	.trigger {
+		display: none
+	}
 }
