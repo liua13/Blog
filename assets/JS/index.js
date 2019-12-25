@@ -11,6 +11,7 @@ $(document).ready(function(){
 	setInterval(function(){
 		cursor();
 	}, 600);
+
 });
 
 function typing(){
