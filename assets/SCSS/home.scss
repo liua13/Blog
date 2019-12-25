@@ -1,5 +1,45 @@
-@import "theme.scss"
+---
+---
+
+@import "theme.scss";
 
 #about{
-	font-family: "Open Sans Condensed";
+	width: 100%;
+	height: auto;
+}
+#about span{
+	padding: 20px 50px 0px 50px;
+	margin: 0 auto;
+	position: relative;
+	display: inline;
+}
+
+#about span:first-child{
+	display: inline-block;
+	text-align: center;
+
+	h1{
+		font-size: 40px;
+		font-family: "Open Sans Condensed";
+	}
+
+	p{
+		font-size: 20px;
+		text-align: justify;
+	}
+}
+#about span:last-child{
+	display: inline-block;
+}
+
+@media only screen and (min-width: 1351px) {
+	#about span{
+		width: 42%;
+	}
+}
+
+@media only screen and (max-width: 1350px) {
+	#about span{
+		width: 75%;
+	}
 }

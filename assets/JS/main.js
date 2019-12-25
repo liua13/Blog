@@ -8,7 +8,7 @@ $(window).scroll(function() {
 		$("#nav").css("display", "inline-block");
 		$("#nav").css("background-color", "transparent");
 	} else if(y < 690) {
-		$("#nav-title").fadeIn();
+		$("#nav-title").css("display", "none");
 		$("#nav").css("display", "inline-block");
 		$("#nav").css("background-color", "#469DD6");
 	} else {
