@@ -1,6 +1,7 @@
 ---
 ---
 @import "theme.scss";
+@import "nav.scss";
 
 a{
 	text-decoration: none;
@@ -9,7 +10,7 @@ a{
 .site-title {
 	font-family: "Oswald";
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 45px;
 	color: white;
 	margin: 25px 0px 0px 20px;
 }
@@ -24,66 +25,4 @@ a{
 	width: 105%;
 	padding: 0;
 	margin: -1625px 0px 0px -10px;
-}
-
-// *** nav bar ***
-.site-nav{
-	float: right;
-	font-family: "Open Sans Condensed";
-	text-transform: uppercase;
-	font-size: 20px;
-	line-height: 25px;
-	margin-top: 25px;
-
-	// Gaps between nav items, but not on the last one
-    :not(:last-child) {
-      margin-right: 20px;
-    }
-}
-
-// checkbox for hamburger
-#nav-trigger {
-	display: none;
-}
-
-.menu-icon {
-	text-align: center;
-	vertical-align: middle;
-}
-
-.page-link {
-	color: white;
-	font-weight: bold;
-}
-
-// if browser is big
-@media only screen and (min-width: 701px) {
-	.site-nav{
-		width: 200px;
-	}
-
-	.menu-icon {
-		display: none;
-	}
-
-	.trigger {
-		display: inline-block;
-	}
-
-}
-
-// if browser is small
-@media only screen and (max-width: 700px) {
-	.site-nav{
-		width: 25px;
-	}
-
-	.menu-icon {
-		display: inline-block;
-
-	}
-
-	.trigger {
-		display: none
-	}
 }
