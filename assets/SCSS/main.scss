@@ -20,10 +20,10 @@ a{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	min-height: 1000px;
+	height: 1000px;
 	width: 105%;
 	padding: 0;
-	margin: -350px 0px 0px -10px;
+	margin: -400px 0px 0px -10px;
 }
 
 // *** nav bar ***
@@ -53,6 +53,7 @@ a{
 
 .page-link {
 	color: white;
+	font-weight: bold;
 }
 
 // if browser is big
