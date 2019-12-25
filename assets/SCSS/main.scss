@@ -3,6 +3,10 @@
 @import "theme.scss";
 @import "nav.scss";
 
+body{
+	width: 100%;
+}
+
 a{
 	text-decoration: none;
 }
@@ -65,24 +69,4 @@ a{
 	#background{
 		width: 104%;
 	}
-}
-
-// homepage background
-#background{
-	background-image: url("../graphics/background.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	height: 700px;
-	padding: 0;
-	margin: -30px 0px 0px -10px;
-}
-
-#animate{
-	font-family: "Open Sans Condensed", "sans serif";
-	width: 100%;
-	color: white;
-	font-size: 25px;
-	text-align: center;
-	vertical-align: middle;
-	padding-top: 250px;
 }

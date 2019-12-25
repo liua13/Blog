@@ -4,23 +4,39 @@
 @import "theme.scss";
 
 #about{
-	width: 100%;
-	height: auto;
-}
-#about span{
-	padding: 20px 50px 0px 50px;
-	margin: 0 auto;
-	position: relative;
-	display: inline;
+	width: 99.5%;
+	display: block;
+	overflow:auto;
+	border-bottom: 1px solid gray;
+	margin-left: -5px;
+	padding: 30px 0px;
 }
 
-#about span:first-child{
-	display: inline-block;
+#mypic{
+	margin: 20px 0px 20px 10px;
+	width: 30%;
+	float:left;
+
+	img{
+		border-radius: 400px;
+		height: auto;
+		width: 250px;
+		float: right;
+		padding: 20px 0px;
+	}
+}
+
+#aboutme{
+	margin: 20px 125px 0px 30px;
 	text-align: center;
+	width: 50%;
+	float:right;
+	font-family: "Open Sans Condensed";
+	padding: 0px 30px;
 
 	h1{
 		font-size: 40px;
-		font-family: "Open Sans Condensed";
+		text-align: center;
 	}
 
 	p{
@@ -28,18 +44,38 @@
 		text-align: justify;
 	}
 }
-#about span:last-child{
-	display: inline-block;
+
+// homepage background
+#background{
+	background-image: url("../graphics/background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 700px;
+	padding: 0;
+	margin: -30px 0px 0px -10px;
 }
 
-@media only screen and (min-width: 1351px) {
-	#about span{
-		width: 42%;
-	}
+#animate{
+	font-family: "Open Sans Condensed", "sans serif";
+	width: 100%;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 250px;
 }
 
-@media only screen and (max-width: 1350px) {
-	#about span{
-		width: 75%;
+@media only screen and (max-width: 1125px) {
+	#mypic, #aboutme{
+		display: block;
+		margin: auto;
+		width: 80%;
+		float: none;
+
+		img{
+			float: none;
+			margin: 0 auto;
+			display: block;
+		}
 	}
 }
