@@ -9,7 +9,21 @@ a{
 .site-title {
 	font-family: "Oswald";
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 50px;
+	color: white;
+	margin: 25px 0px 0px 20px;
+}
+
+// homepage background
+#background{
+	background-image: url("../graphics/background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 750px;
+	width: 105%;
+	padding: 0;
+	margin: -100px 0px 0px -10px;
 }
 
 // *** nav bar ***
@@ -18,8 +32,8 @@ a{
 	font-family: "Open Sans Condensed";
 	text-transform: uppercase;
 	font-size: 20px;
-	line-height: 15px;
-	margin-top: 22px;
+	line-height: 25px;
+	margin-top: 25px;
 
 	// Gaps between nav items, but not on the last one
     :not(:last-child) {
@@ -35,6 +49,10 @@ a{
 .menu-icon {
 	text-align: center;
 	vertical-align: middle;
+}
+
+.page-link {
+	color: white;
 }
 
 // if browser is big
