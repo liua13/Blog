@@ -5,20 +5,24 @@
 	height:70px;
 	padding: 20px 0px 15px 20px;
 	z-index: 100;
-	margin: 0px 0px 0px -10px;
+	margin: 0px 10px 0px -10px;
 }
 
 .site-nav{
+	position: relative;
 	float: right;
 	font-family: "Open Sans Condensed";
 	text-transform: uppercase;
 	font-size: 20px;
 	line-height: 25px;
-	margin: 22px 200px 0px 0px;
 
 	// Gaps between nav items, but not on the last one
     :not(:last-child) {
       margin-right: 20px;
+    }
+
+    :last-child{
+    	margin-right: 200px;
     }
 }
 
