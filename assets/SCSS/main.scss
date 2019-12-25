@@ -10,9 +10,46 @@ a{
 .site-title {
 	font-family: "Oswald";
 	text-transform: uppercase;
-	font-size: 45px;
+	font-size: 60px;
 	color: white;
+}
+
+#nav-title{
+	display: none;
 	margin: 25px 0px 0px 20px;
+	font-size: 45px;
+}
+
+// if browser is big
+@media only screen and (min-width: 701px) {
+	.site-nav{
+		width: 200px;
+	}
+
+	.menu-icon {
+		display: none;
+	}
+
+	.trigger {
+		display: inline-block;
+	}
+
+}
+
+// if browser is small
+@media only screen and (max-width: 700px) {
+	.site-nav{
+		width: 25px;
+	}
+
+	.menu-icon {
+		display: inline-block;
+
+	}
+
+	.trigger {
+		display: none
+	}
 }
 
 // homepage background
@@ -27,10 +64,11 @@ a{
 }
 
 #animate{
-	width:100%;
+	font-family: "Open Sans Condensed";
+	width: 100%;
 	color: white;
-	font-size: 40px;
+	font-size: 25px;
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 300px;
+	padding-top: 250px;
 }

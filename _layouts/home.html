@@ -6,8 +6,12 @@ layout: default
 </head>
 <body>
 <div id="background">
-		<p id="animate">I'm <span id="greetings"></span>
-				<span id="cursor">|</span></p>
+		<p id="animate">
+			<span class="home-intro">--- hey, i'm ---</span><br>
+			<span class="site-title">{{ site.title | escape }}</span><br>
+			. <span class="home-intro" id="greetings"></span>
+			<span class="home-intro" id="cursor">|</span>
+		</p>
 </div>
  <div> {{ content }} </div>
 

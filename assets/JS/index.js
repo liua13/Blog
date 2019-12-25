@@ -1,4 +1,4 @@
-greetings = ["Annie.", "a student.", "a coder.", "a writer."];
+greetings = ["student . coder . writer ."];
 wordLength = 0;
 index = 0;
 
@@ -10,7 +10,7 @@ $(document).ready(function(){
 	typing();
 	setInterval(function(){
 		cursor();
-	}, 600);
+	}, 1000);
 
 });
 
@@ -23,7 +23,7 @@ function typing(){
 	if(wordLength <= greetings[index].length){
 		setTimeout(function(){
 			typing(greetings[index]);
-		}, 50);
+		}, 75);
 	} else {
 		setTimeout(function(){
 			erasing();
@@ -36,7 +36,7 @@ function erasing(){
 	if(wordLength >= 0){
 		setTimeout(function(){
 			erasing();
-		}, 50);
+		}, 60);
 	} else {
 		setTimeout(function(){
 			index++;
