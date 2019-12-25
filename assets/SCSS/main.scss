@@ -20,9 +20,17 @@ a{
 	background-image: url("../graphics/background.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center;
-	height: 600px;
+	height: 700px;
 	width: 105%;
 	padding: 0;
-	margin: -110px 0px 0px -10px;
+	margin: -50px 0px 0px -10px;
+}
+
+#animate{
+	width:100%;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 300px;
 }

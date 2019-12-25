@@ -1,4 +1,4 @@
-greetings = ["student.", "coder.", "writer."];
+greetings = ["Annie.", "a student.", "a coder.", "a writer."];
 wordLength = 0;
 index = 0;
 

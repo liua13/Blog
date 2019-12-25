@@ -1,11 +1,19 @@
 // *** nav bar ***
+#nav{
+	position: fixed;
+	width: 100%;
+	height:70px;
+	margin-left: -20px;
+	padding: 20px 0px 15px 20px;
+}
+
 .site-nav{
 	float: right;
 	font-family: "Open Sans Condensed";
 	text-transform: uppercase;
 	font-size: 20px;
 	line-height: 25px;
-	margin-top: 22px;
+	margin: 22px 20px 0px 0px;
 
 	// Gaps between nav items, but not on the last one
     :not(:last-child) {
