@@ -3,18 +3,10 @@
   <div class="wrapper" id="nav">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a id="nav-title" class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <img src="assets/graphics/hamburger.png" height="20px"/>
-          </span>
-        </label>
-
-        <div class="trigger">
+        <div class="trigger" id="navBar">
           {%- for path in site.data.nav -%}
             {%- assign my_page = page_paths | where: "path", path.url | first -%}
             <a class="page-link" href="{{ path.url | relative_url }}">{{ path.page | escape }}</a>

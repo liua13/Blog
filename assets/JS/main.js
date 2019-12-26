@@ -1,8 +1,6 @@
 var previousY = $(this).scrollTop;
 $(window).scroll(function() {
 	var y = $(this).scrollTop();
-	console.log(y);
-	console.log(y);
 	if (y < 180) {
 		$("#nav").css("display", "inline-block");
 		$("#nav").css("background-color", "transparent");
@@ -18,3 +16,11 @@ $(window).scroll(function() {
 	}
 	previousY = y;
 });
+
+function hamburgerNav(){
+	if ($("#navBar").attr("class") == "trigger"){
+		$("#navBar").addClass("responsive");
+	} else {
+		$("#navBar").removeClass("responsive");
+	}
+}
