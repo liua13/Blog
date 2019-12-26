@@ -1,3 +1,5 @@
+@import "theme.scss";
+
 // *** nav bar ***
 #nav{
 	position: fixed;
@@ -7,7 +9,6 @@
 	margin: auto;
 	display: block;
 	text-align: center;
-	margin-left: -8px;
 }
 
 .site-nav{
@@ -15,7 +16,8 @@
 	font-family: "Open Sans Condensed";
 	text-transform: uppercase;
 	font-size: 20px;
-	line-height: 80px;
+	line-height: 20px;
+	padding: 40px;
 
 	// Gaps between nav items, but not on the last one
     :not(:last-child) {
@@ -25,5 +27,6 @@
 
 .page-link {
 	color: white;
-	font-weight: bold;
+	position: relative;
+	display: inline-block;
 }

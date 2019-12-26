@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Annie Liu
+copyright: © Copyright 2019 Annie Liu
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -26,8 +27,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.annieliu.me" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+mail: annieliu@mit.edu
 github_username:  liua13
+linkedin_username: liuannie01
+quora_username: Annie-Liu-75
+facebook_username: liuann13
 
 # Build settings
 plugins:

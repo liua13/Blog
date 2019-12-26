@@ -6,7 +6,7 @@
 
     {%- if page_paths -%}
       <nav class="site-nav">
-        <div class="trigger" id="navBar">
+        <div>
           {%- for path in site.data.nav -%}
             {%- assign my_page = page_paths | where: "path", path.url | first -%}
             <a class="page-link" href="{{ path.url | relative_url }}">{{ path.page | escape }}</a>
