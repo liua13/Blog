@@ -3,13 +3,14 @@
 
 @import "theme.scss";
 
-#about{
+#about, #projects{
+	font-family: "Open Sans Condensed";
 	width: 99.5%;
 	display: block;
 	overflow: auto;
-	border-bottom: 1px solid gray;
 	margin-left: -5px;
 	padding: 30px 0px;
+	border-bottom: 1px solid gray;
 }
 
 #mypic{
@@ -31,18 +32,23 @@
 	text-align: center;
 	width: 50%;
 	float:right;
-	font-family: "Open Sans Condensed";
 	padding: 0px 30px;
+}
 
-	h1{
-		font-size: 40px;
-		text-align: center;
-	}
+#projects div{
+	margin: auto;
+	text-align: center;
+	width: 75%;
+	padding: 40px;
+}
 
-	p{
-		font-size: 20px;
-		text-align: justify;
-	}
+h1{
+	font-size: 40px;
+}
+
+p{
+	font-size: 20px;
+	text-align: justify;
 }
 
 // homepage background

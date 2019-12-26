@@ -5,6 +5,6 @@
 - page: "projects"
   url: "/#projects"
 - page: "contact"
-  url: "/#contact"
+  url: "/#footer"
 - page: "blog"
   url: "/blog/"

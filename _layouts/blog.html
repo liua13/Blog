@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<head>
+  <link rel="stylesheet" href="{{ '/assets/SCSS/blog.css' | relative_url }}">
+</head>
 
-  {{ content }}
+<div class="blog">
+    <h1>Latest Posts</h1>
 
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
@@ -27,6 +27,16 @@ layout: default
       {%- endfor -%}
     </ul>
 
+    <div>
+      {%- if site.categories -%}
+        {%- for category in site.categories-%}
+          <h1>{{category[0]}}</h1>
+          {% for post in category[1] %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        {% endfor %}
+      {%- endif -%}
+    </div>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 

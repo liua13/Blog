@@ -22,16 +22,23 @@ title: Annie Liu
 copyright: © Copyright 2019 Annie Liu
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi! I'm Annie Liu, a first year undergrad at MIT studying computer 
+  science with a minor in creative writing. My interests lie in 
+  understanding ourselves better and using the tools we have to solve problems 
+  we face, whether it's through books or technology. Coding and writing, 
+  in my eyes, are extremely similar: Through the lines of code I write, 
+  I’m communicating with computers the same way I communicate with the 
+  people around me. The only difference is, instead of English, I’m 
+  using Python (or Java, etc). Aside from coding and writing, I enjoy 
+  reading, running, listening to music, playing card / board games, 
+  and spending time with friends.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.annieliu.me" # the base hostname & protocol for your site, e.g. http://example.com
 mail: annieliu@mit.edu
 github_username:  liua13
 linkedin_username: liuannie01
+goodreads_username: user/show/98596840-annie-liu
 quora_username: Annie-Liu-75
-facebook_username: liuann13
 
 # Build settings
 plugins:
