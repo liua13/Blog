@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Annie Liu
+author: Annie Liu
 copyright: © Copyright 2019 Annie Liu
 email: 
 description: >- # this means to ignore newlines until "baseurl:"

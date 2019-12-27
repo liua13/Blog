@@ -12,20 +12,20 @@ h1{
 	font-family: "Oswald";
 }
 
-.blog{
+.blog, .post{
 	padding-top: 75px;
 	border-bottom: 1px solid gray;
 }
 
-.blog div{
-	width: 65%;
+.blog div, .post div{
+	width: 70%;
 	display:block;
 	margin: auto;
 	padding: 40px 0px;
 }
 
-@media only screen and (max-width: 450px) {
-	.container div{
+@media screen and (max-width: 600px) {
+	.blog div, .post div{
 		width: 85%;
 	}
 }
@@ -78,13 +78,22 @@ a{
 }
 
 // *** categories scss *** 
-
 #categories {
-
 	.category-title{
 		text-transform: uppercase;
 		color: #469DD6;
 		font-family: "Oswald";
 		font-size: 30px;
+	}
+}
+
+// *** post page scss ***
+.post-header{
+	h1{
+		margin-bottom: 5px;
+	}
+
+	p{
+		margin: 0px;
 	}
 }
