@@ -6,19 +6,22 @@ layout: default
   <link rel="stylesheet" href="{{ '/assets/SCSS/blog.css' | relative_url }}">
 </head>
 
-<div class="blog">
+<div class="blog" id="categories">
   <div>
-    <h1>Latest Posts</h1>
 
-  {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
-      {%- for post in site.posts -%}
+  {%- if site.categories.size > 0 -%}
+      {%- for category in site.categories -%}
+
+      <h1 class="category-title" id="#{{ category[0] }}">{{ category[0] }}</h1>
+
+  <ul class="post-list">
+      {%- for post in category[1] -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span> •
 
         {%- if post.categories-%}
-          <a class="post-category" href="categories/#{{ post.categories[0] }}"> {{post.categories[0] | escape}} </a>
+          <span class="post-category"> {{post.categories[0] | escape}} </span>
         {%- endif -%}
 
         <h3>
@@ -32,6 +35,7 @@ layout: default
       {%- endfor -%}
       </li>
     </ul>
+    {%- endfor -%}
   {%- endif -%}
 
   </div>

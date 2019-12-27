@@ -5,6 +5,7 @@ index = 0;
 changeScroll = 1;
 previousScroll = 0;
 
+// cursor typing 
 $(document).ready(function(){
 	message = $("#greetings");
 	typing();
@@ -52,3 +53,23 @@ function cursor(){
 		opacity: 1
 	}, 300, "swing")
 }
+
+// nav bar
+var previousY = $(this).scrollTop;
+$(window).scroll(function() {
+	var y = $(this).scrollTop();
+	if (y < 180) {
+		$("#nav").css("display", "inline-block");
+		$("#nav").css("background-color", "transparent");
+	} else if(y < 690) {
+		$("#nav").css("display", "inline-block");
+		$("#nav").css("background-color", "#469DD6");
+	} else {
+	    if(previousY > y){
+	    	$("#nav").fadeIn();
+	    } else {
+	    	$("#nav").fadeOut();
+	    }
+	}
+	previousY = y;
+});

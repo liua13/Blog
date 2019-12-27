@@ -39,6 +39,7 @@ github_username:  liua13
 linkedin_username: liuannie01
 goodreads_username: user/show/98596840-annie-liu
 quora_username: Annie-Liu-75
+rss: feed.xml
 
 # Build settings
 plugins:

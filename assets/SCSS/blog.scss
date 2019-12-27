@@ -3,6 +3,88 @@
 
 @import "theme.scss";
 
+#nav{
+	margin-top: 0px;
+	background-color: #469DD6;
+}
+
 h1{
 	font-family: "Oswald";
+}
+
+.blog{
+	padding-top: 75px;
+	border-bottom: 1px solid gray;
+}
+
+.blog div{
+	width: 65%;
+	display:block;
+	margin: auto;
+	padding: 40px 0px;
+}
+
+@media only screen and (max-width: 450px) {
+	.container div{
+		width: 85%;
+	}
+}
+
+li{
+	margin: 0px 40px 40px 0px;
+	color: gray;
+}
+
+// date
+.post-meta{
+	font-size: 15px;
+	color: gray;
+	margin-right: 5px;
+	padding: 0px;
+	font-family: "Open Sans";
+}
+
+// category
+.post-category{
+	font-size: 15px;
+	color: #469DD6;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+	margin-left: 5px;
+}
+
+// title
+h3{
+	font-family: "Oswald";
+	font-size:30px;
+	margin: 0px;
+}
+
+a{
+	color: black;
+}
+
+// subtitle
+.post-subtitle{
+	color: black;
+	margin: 0px;
+	font-family: "Open Sans Condensed";
+}
+
+// footer 
+.social-media-list li{
+	margin: 0px;
+	padding: 0px;
+}
+
+// *** categories scss *** 
+
+#categories {
+
+	.category-title{
+		text-transform: uppercase;
+		color: #469DD6;
+		font-family: "Oswald";
+		font-size: 30px;
+	}
 }
