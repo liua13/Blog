@@ -43,39 +43,42 @@ a:hover:after{
 }
 
 // footer
-.social-media-list{
-	white-space: nowrap; 
-	overflow: hidden;
+#footer{
+	padding: 20px 0px;
 
-	div{
-		margin: 0 auto;
-		display: block;
-		overflow: auto;
-		width: 275px;
+	.social-media-list{
+		white-space: nowrap; 
+		overflow: hidden;
 
-		.svg-icon {
-			width: 16px;
-			height: 16px;
-			fill: "dark gray";
-			padding: 5px 3px 2px 5px;
-			vertical-align: top;
-			float:left;
-		}
+		div{
+			margin: 0 auto;
+			display: block;
+			overflow: auto;
+			width: 275px;
 
-		:not(:last-child){
-			margin-right: 20px;
+			.svg-icon {
+				width: 16px;
+				height: 16px;
+				fill: "dark gray";
+				padding: 5px 3px 2px 5px;
+				vertical-align: top;
+				float:left;
+			}
+
+			:not(:last-child){
+				margin-right: 20px;
+			}
 		}
 	}
+
+	.username{
+	  	display: none;
+	 }
+
+	 #copyright{
+	 	font-size: 15px;
+	 	text-align: center;
+	 	padding-bottom: 40px;
+	 }
 }
-
-.username{
-  	display: none;
- }
-
- #copyright{
- 	font-size: 15px;
- 	text-align: center;
- 	padding-bottom: 40px;
- }
-
  
