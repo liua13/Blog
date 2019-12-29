@@ -2,6 +2,7 @@
 ---
 
 @import "theme.scss";
+@import "nav.scss";
 
 #nav{
 	margin-top: 0px;
@@ -53,11 +54,20 @@ li{
 	margin-left: 5px;
 }
 
+.post-category:hover{
+	color: gray;
+}
+
 // title
-h3{
+.post-link{
 	font-family: "Oswald";
 	font-size:30px;
 	margin: 0px;
+
+}
+
+.post-link:hover{
+	color: #469DD6;
 }
 
 a{
