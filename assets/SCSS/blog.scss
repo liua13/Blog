@@ -40,7 +40,7 @@ li{
 .post-meta{
 	font-size: 15px;
 	color: gray;
-	margin-right: 5px;
+	margin: 0px 5px 0px 0px;
 	padding: 0px;
 	font-family: "Open Sans";
 }
@@ -51,7 +51,7 @@ li{
 	color: #469DD6;
 	font-family: "Open Sans";
 	text-transform: uppercase;
-	margin-left: 5px;
+	margin: 0px 0px 0px 5px;
 }
 
 .post-category:hover{
@@ -59,10 +59,11 @@ li{
 }
 
 // title
-.post-link{
+h3{
 	font-family: "Oswald";
-	font-size:30px;
+	font-size: 30px;
 	margin: 0px;
+	padding: 0px;
 
 }
 
@@ -79,6 +80,7 @@ a{
 	color: black;
 	margin: 0px;
 	font-family: "Open Sans Condensed";
+	padding: 0px;
 }
 
 // footer 
