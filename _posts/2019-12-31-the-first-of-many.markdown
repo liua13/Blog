@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "The First of Many"
-subtitle: "Now that I've finished building my blog and page, here's the first post of many more to come."
+subtitle: "Now that I've finished building my personal page and blog, here's the first post of many more to come."
 date:   2019-12-30 11:58:00 0500
 categories: rant
 ---
-There’s always this gnawing impression in my mind that the first needs to be perfect. No matter how many times I flick it away, shake my head, or tell myself to do it, the thought still lingers. And when I was done building this website -- my blog -- I had the same gnawing impression. What would my first blog post be about? 
+There’s always this gnawing impression in my mind that the first needs to be perfect. No matter how many times I flick it away, shake my head, or tell myself to stop worrying, the thought still lingers. And when I was done building this website -- my blog -- I had the same gnawing impression. What would my first blog post be about? 
 
 I have a list of potential topics I could write about, a list I’ve compiled to prevent exact situations like these (but alas, the irony of it all). But as my eyes scanned down the list, nothing seemed right. Nothing seemed right -- much less perfect -- for the first blog post. 
 
-I don’t know what changed, but a seed planted in my mind. I knew that I had to write a blog post; I couldn’t just skip to Blog Post #27. So why not a blog post about firsts to mark the occasion? At first, I pushed the idea aside, but the more I thought about it, the more right it felt. My gut was agreeing with me. 
+I don’t know what changed, but a seed planted in my mind. I knew that I had to write a blog post; I couldn’t just skip to Blog Post #27039. So why not a blog post about firsts to mark the occasion? At first, I pushed the idea aside, but the more I thought about it, the more right it felt. My gut was agreeing with me. 
 
 One of the first things that comes to mind when I think about firsts is my physics class during my junior year of high school. We were learning about static and kinetic friction, and my teacher at the time was explaining to us that static friction was larger than kinetic friction because it takes much more energy to move a static object. Similarly, it takes more energy to start something new than something you’ve grown accustomed to. Whether it’s a new project or a new habit, you need that initial momentum to get you rolling up that hill, even as the friction of your own fear tries to push you down. Whenever I start something, there’s a feeling of excitement mixed with nervousness and fear from not knowing what to expect -- and it’s that excitement that serves as the momentum I need to start. 
 
