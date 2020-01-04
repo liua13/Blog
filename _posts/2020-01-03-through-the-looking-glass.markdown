@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Through the Looking Glass"
-subtitle: "History of my glasses and why I always wear them."
+subtitle: "History of my glasses frames and why I always wear them."
 date:   2020-01-03 07:33:00 0500
 categories: rant
 ---
