@@ -23,7 +23,7 @@ author: Annie Liu
 copyright: © Copyright 2019 Annie Liu
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm Annie Liu, a first year undergrad at MIT studying computer 
+  Hi! I'm Annie Liu (she/her), a first year undergrad at MIT pursuing a major in computer 
   science with a minor in creative writing. My interests lie in 
   understanding ourselves better and using the tools we have to solve problems 
   we face, whether it's through books or technology. Coding and writing, 
@@ -36,6 +36,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.annieliu.me" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-155204630-1
+codebase: Blog
 mail: annieliu@mit.edu
 github_username:  liua13
 linkedin_username: liuannie01

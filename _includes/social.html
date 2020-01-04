@@ -1,5 +1,7 @@
 <ul class="social-media-list">
 <div>
+  {%- if site.codebase -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}/{{site.codebase | cgi_escape | escape}}"><svg class="svg-icon"><use xlink:href="{{ '/assets/graphics/social-icons.svg#codebase' | relative_url }}"></use></svg> <span class="username">{{ site.codebase| escape }}</span></a></li>{%- endif -%}
+
   {%- if site.mail -%}<li><a href="mailto:{{ site.mail| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/graphics/social-icons.svg#mail' | relative_url }}"></use></svg> <span class="username">{{ site.mail| escape }}</span></a></li>{%- endif -%}
 
   {%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/graphics/social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a></li>{%- endif -%}
