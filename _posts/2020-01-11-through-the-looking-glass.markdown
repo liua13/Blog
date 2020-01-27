@@ -2,7 +2,7 @@
 layout: post
 title:  "Through the Looking Glass"
 subtitle: "History of my glasses frames and why I always wear them."
-date:   2020-01-03 07:33:00 0500
+date:   2020-01-11 07:33:00 0500
 categories: rant
 ---
 I got my first pair of glasses in fourth grade. My eyes had worsened significantly the year before, but I refused to admit that I needed glasses until my father brought me to see an eye doctor — after all, who wants a piece of plastic obstructing their face? The glasses I chose were orange-brown and bendy with small, rounded rectangular, plastic half-frames, the kind everyone and their mother had at some point in their lives. 
