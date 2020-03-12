@@ -37,10 +37,24 @@ layout: default
 </div>
 
 <div id="projects">
-	<div>
-		<h1>PROJECTS</h1>
-		<p>to be updated!</p>
-	</div>
+	<h1>PROJECTS</h1>
+	
+	{%- for path in site.data.projects -%}
+		{%- if path.count == 0 or path.count == -1 -%}
+			<div id="project">
+		{%- endif -%}
+		<div class="project-info-div">
+			<a href="{{ path.link }}"><img class="project-image" src="{{ path.image }}" ></img></a>
+			<div class="project-info">
+				<p><span class="project-title">{{ path.title }}</span><br><span class="project-award">{{ path.award }}</span></p>
+				<p class="project-description">{{ path.description }}</p>
+			</div>
+		</div>
+
+		{%- if path.count == 1 or path.count == -1 -%}
+			</div>
+		{%- endif -%}
+	{%- endfor -%}
 </div>
 
 </body>
