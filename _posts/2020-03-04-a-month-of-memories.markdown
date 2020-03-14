@@ -1,15 +1,17 @@
 ---
 layout: post
 title:  "A Month of Memories"
-subtitle: "How I spent my first IAP at MIT and what I learned through the month."
+subtitle: "How I spent my first IAP at MIT and what I learned throughout the month."
 date:   2020-03-04 07:33:00 0500
+image: "../assets/graphics/posts/a-month-of-memories.jpg"
+caption: One of the breathtaking views of the Ice Castle in New Hampshire, where my floor and I drove to during IAP.
 categories: mit
 ---
 When I lugged my suitcase back to MIT after my two-week long winter break, I had no idea how many new things I would learn and do in one month. For all of January, MIT has something called IAP, a period of time where we’re free to do anything we want on or off campus—UROP, extern, nothing, etc. My first IAP was amazing, to say the least.
 
 I began my research position at the Media Lab under the Lifelong Kindergarten Group. We’re prototyping a tool to help teachers plan in an easier and more creative way, since most of the tools they use now aren’t well-suited for their needs. It was not only super fun to work in the Media Lab (with its large windows and nice views), but I also got to work with Trinity (who is awesome, by the way) and learned a lot! Plus, the Media Lab hosted a Festival of Learning on January 24th, where the whole third, fourth, and other floor were filled with activities anyone could participate in. Trinity and I went to a DJing session, where we learned to use DJ mixers and software that makes it easier to transition between songs. I’m not an expert, but when I’m asked to say a fun fact about myself, I can say that I learned how to DJ!
 
-During that first week, I also started taking swim classes at MIT (a requirement to graduate!) I’ve taken swim lessons before in fourth grade, but never really learned how to properly swim because I was afraid of drowning. I still don’t really know how to freestyle—a month isn’t really that long when you think about it—but I feel much more confident gliding both with my head in the water and on my back. Nonetheless, swimming is fun and I want to get better at it. 
+During that first week, I also started taking swim classes at MIT (a requirement to graduate!). I’ve taken swim lessons before in fourth grade, but never really learned how to properly swim because I was afraid of drowning. I still don’t really know how to freestyle—a month isn’t really that long when you think about it—but I feel much more confident gliding both with my head in the water and on my back. Nonetheless, swimming is fun and I want to get better at it. 
 
 Speaking of classes, I was also enrolled in Code for Good, where you work with your group to help or solve any coding related things a nonprofit might want or have. My team and I were partnered up with YWCA Cambridge, an organization dedicated to eliminating racism and empowering women. They have two rooms that they rent out, but the previous system was inefficient. People filled out a Google Form with details about the rental and kept calling YWCA to check if specific times were available. To reduce this inefficiency, we created a calendar that displayed all of the approved rental times and the booked but not yet approved ones. 
 

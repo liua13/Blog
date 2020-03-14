@@ -3,7 +3,9 @@ layout: post
 title:  "The First of Many"
 subtitle: "Now that I've finished building my personal page and blog, here's the first post of many more to come."
 date:   2019-12-30 11:58:00 0500
-categories: rant
+image: "../assets/graphics/posts/the-first-of-many.jpg"
+caption: A photograph I took around my neighborhood as a reminder that much like the tracks, I can't see into the future but it is full of so many possibilities. 
+categories: thoughts
 ---
 There’s always this gnawing impression in my mind that the first needs to be perfect. No matter how many times I flick it away, shake my head, or tell myself to stop worrying, the thought still lingers. And when I was done building this website -- my blog -- I had the same gnawing impression. What would my first blog post be about? 
 

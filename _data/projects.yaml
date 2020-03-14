@@ -1,5 +1,5 @@
 - id: "creativelearning"
-  count: -1
+  count: 0
   title: "Creative Learning Tool"
   image: "assets/graphics/projects/CreativeLearning.jpg"
   award: "MIT Media Lab UROP (Lifelong Kindergarten Group)"
@@ -8,7 +8,7 @@
     interactively, since current tools do not address the issues that they face."
 
 - id: "openstreets"
-  count: 0
+  count: 1
   title: "Open Streets"
   image: "assets/graphics/projects/OpenStreets.jpg"
   link: "https://github.com/liua13/OpenStreets"
@@ -18,7 +18,7 @@
      assistance that may be required, and automatically update the addresses and dates of when the posts were made."
 
 - id: "proteinresearch"
-  count: 1
+  count: 2
   title: "Machine Learning Research"
   image: "assets/graphics/projects/Regeneron.jpg"
   link: "https://sspcdn.blob.core.windows.net/files/Documents/SEP/STS/2019/STS%202019%20Scholar%20Book.pdf#page=15"

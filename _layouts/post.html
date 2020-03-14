@@ -7,25 +7,32 @@ layout: default
 </head>
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-<div>
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }} •
-      </time>
+  <div class="post-header">
+    <header>
+      <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" class="post-meta">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}</time><span>|</span>
 
-        {%- if page.categories-%}
-          <a class="post-category" href="../../../../blog/categories/#{{ page.categories[0] }}"> {{page.categories[0] | escape}} </a>
+          {%- if page.categories-%}
+            <a class="post-category" href="../../../../blog/categories/#{{ page.categories[0] }}">{{page.categories[0] | escape}} </a>
+          {%- endif -%}
+
+          {%- if page.author -%}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</span>
         {%- endif -%}
+        </p>
 
-      {%- if page.author -%}
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      <p class="post-subtitle">{{ page.subtitle | escape }}</p>
 
-  <div id="post-content" itemprop="articleBody">
+      <div><img class="post-image-div" src="{{ page.image | relative_url }}"></div>
+      <div><span class="post-caption">{{ page.caption }}</span></div>
+
+    </header>
+  </div>
+
+  <div class="post-content">
     {{ content }}
   </div>
 
@@ -33,6 +40,6 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a href="{{ page.url | relative_url }}" hidden></a>
 </div>
 </article>

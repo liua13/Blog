@@ -6,23 +6,21 @@ layout: default
   <link rel="stylesheet" href="{{ '/assets/SCSS/blog.css' | relative_url }}">
 </head>
 
-<div class="blog" id="categories">
+<div id="categories">
   <div>
-    <h1>Categories</h1>
   {%- if site.categories.size > 0 -%}
-      {%- for category in site.categories -%}
+    {%- for category in site.categories -%}
 
-      <h1 class="category-title" id="#{{ category[0] }}">{{ category[0] }}</h1>
+    <h1 class="category-title" id="#{{ category[0] }}">{{ category[0] }}</h1>
 
-  <ul class="post-list">
-      {%- for post in category[1] -%}
-      <li>
+  
+    {%- for post in category[1] -%}
+    <div class="post-div">
+      <img class="post-image" src="{{ post.image | relative_url }}">
+
+      <div class="post-info">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span> •
-
-        {%- if post.categories-%}
-          <span class="post-category"> {{post.categories[0] | escape}} </span>
-        {%- endif -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -32,9 +30,11 @@ layout: default
         {%- if post.subtitle -%}
           <p class="post-subtitle">{{ post.subtitle }}</p>
         {%- endif -%}
-      {%- endfor -%}
-      </li>
-    </ul>
+    </div>
+    </div>
+    {%- endfor -%}
+
+
     {%- endfor -%}
   {%- endif -%}
 

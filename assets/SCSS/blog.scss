@@ -13,31 +13,42 @@ h1{
 	font-family: "Oswald";
 }
 
-.blog, .post{
-	padding-top: 75px;
+a{
+	color: black;
+}
+
+.blog{
+	padding: 90px 0px 75px 0px;
 	border-bottom: 1px solid gray;
 }
 
-.blog div, .post div{
-	width: 70%;
-	display:block;
-	margin: auto;
-	padding: 40px 0px;
-}
+.post-div{
+	margin: auto; 
+	padding: 10px 10px 30px 10px;
+	clear: left;
+	display: block;
+	width: 65%;
 
-@media screen and (max-width: 600px) {
-	.blog div, .post div{
-		width: 85%;
+	.post-image{
+		width: 35%;
+		float:left;
+		border-radius: 10px;
+	}
+
+	.post-info{
+		height: 100%;
+		width: 60%;
+		display: inline-block;
+		padding: 10px 10px 10px 25px;
 	}
 }
 
-li{
-	margin: 0px 40px 40px 0px;
-	color: gray;
+.post-image:hover{
+	opacity: 0.5;
 }
 
 // date
-.post-meta{
+.post-date{
 	font-size: 15px;
 	color: gray;
 	margin: 0px 5px 0px 0px;
@@ -71,25 +82,6 @@ h3{
 	color: #469DD6;
 }
 
-a{
-	color: black;
-}
-
-// subtitle
-.post-subtitle{
-	color: black;
-	margin: 0px;
-	font-family: "Open Sans Condensed";
-	padding: 0px;
-}
-
-// actual post
-#post-content{
-	padding-top: 20px;
-	margin-top: 0px;
-	text-align: justify;
-	font-family: 'Open Sans Condensed'
-}
 
 // footer 
 .social-media-list li{
@@ -97,23 +89,127 @@ a{
 	padding: 0px;
 }
 
-// *** categories scss *** 
-#categories {
-	.category-title{
-		text-transform: uppercase;
-		color: #469DD6;
-		font-family: "Oswald";
-		font-size: 30px;
+@media screen and (max-width: 1150px) {
+	.blog div{
+		width: 95%;
 	}
 }
 
+@media screen and (max-width: 850px) {
+	.blog{
+		padding-bottom: 0px;
+	}
+
+	.post-div{
+		padding-bottom: 40px;
+
+		.post-image{
+			width: 100%;
+		}
+
+		.post-info{
+			width: 93%;
+		}
+	}
+}
+
+
+// *** categories scss *** 
+
+#categories{
+	padding: 70px 0px 75px 0px;
+	border-bottom: 1px solid gray;
+}
+
+.category-title{
+	text-transform: uppercase;
+	color: #469DD6;
+	font-family: "Oswald";
+	font-size: 30px;
+	text-align: center;
+	margin: 50px auto 0px auto;
+}
+
 // *** post page scss ***
+
+// for notes 
+li{
+	margin: 0px 40px 40px 0px;
+	color: gray;
+}
+
+// whole post page
+.post {
+	padding: 85px 0px 40px 0px;
+	border-bottom: 1px solid gray;
+}
+
+// date, category, title, subtitle, image, caption
 .post-header{
+	text-align: center;
+	width: 60%;
+	display: block;
+	margin: auto;
+
 	h1{
 		margin-bottom: 5px;
 	}
 
 	p{
 		margin: 0px;
+	}
+}
+
+// date and categories
+.post-meta{
+	font-size: 15px;
+	color: gray;
+	margin: 0px 5px 0px 0px;
+	padding: 40px 0px 0px 0px;
+	font-family: "Open Sans";
+}
+
+// title
+.post-title{
+	margin: 0
+}
+
+// subtitle
+.post-subtitle{
+	color: black;
+	font-family: "Open Sans Condensed";
+	padding-bottom: 10px;
+}
+
+// image
+.post-image-div{
+	display:inline-block;
+	width: 95%;
+	text-align:center;
+	margin: 10px 0px;
+}
+
+// caption
+.post-caption{
+	font-family: "Open Sans Condensed";
+	font-style: italic;
+}
+
+// actual post content
+.post-content{
+	padding-top: 0px;
+	text-align: justify;
+	font-family: 'Open Sans Condensed';
+	width: 50%;
+	margin: 40px auto;
+}
+
+@media screen and (max-width: 800px) {
+	.post-header{
+		width: 90%;
+	}
+
+	.post-content{
+		width: 75%;
 	}
 }
