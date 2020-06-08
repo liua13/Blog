@@ -16,40 +16,40 @@ layout: default
 </head>
 
 <body>
-<div class="blog">
-  <div>
+  <div class="blog">
+    <div>
 
-  {%- if site.posts.size > 0 -%}
-    <div class="post-list">
-      {%- for post in site.posts -%}
-      <div class="post-div">
-        <a href="{{ post.url | relative_url }}"><img class="post-image" src="{{ post.image }}"></a>
+    {%- if site.posts.size > 0 -%}
+      <div class="post-list">
+        {%- for post in site.posts -%}
+        <div class="post-div">
+          <a href="{{ post.url | relative_url }}"><img class="post-image" src="{{ post.image }}"></a>
 
-        <div class="post-info">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-date">{{ post.date | date: date_format }} </span><span style="color:gray;"> | </span>
-          {%- if post.categories-%}
-            <a class="post-category" href="categories/#{{ post.categories[0] }}">{{post.categories[0] | escape}}</a>
-          {%- endif -%}
+          <div class="post-info">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-date">{{ post.date | date: date_format }} </span><span style="color:gray;"> | </span>
+            {%- if post.categories-%}
+              <a class="post-category" href="categories/#{{ post.categories[0] }}">{{post.categories[0] | escape}}</a>
+            {%- endif -%}
 
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if post.subtitle -%}
-            <p class="post-subtitle">{{ post.subtitle }}</p>
-          {%- endif -%}
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if post.subtitle -%}
+              <p class="post-subtitle">{{ post.subtitle }}</p>
+            {%- endif -%}
 
+          </div>
         </div>
+        {%- endfor -%}
+        
       </div>
-      {%- endfor -%}
-      
+    {%- endif -%}
+
     </div>
-  {%- endif -%}
+  </div>
 
   </div>
-</div>
-
-</div>
 </body>

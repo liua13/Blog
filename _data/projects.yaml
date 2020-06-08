@@ -2,10 +2,11 @@
   count: 0
   title: "Creative Learning Tool"
   image: "assets/graphics/projects/CreativeLearning.jpg"
-  award: "MIT Media Lab UROP (Lifelong Kindergarten Group)"
+  award: "UROP @ MIT Media Lab (Lifelong Kindergarten Group)"
   link: "https://www.media.mit.edu/groups/lifelong-kindergarten/overview/"
   description: "A creative learning tool to help teachers and educators work and learn more creatively and 
     interactively, since current tools do not address the issues that they face."
+  technologies: "HTML, CSS, Javascript (jQuery, Node.js, EJS), MongoDB, Mongoose"
 
 - id: "openstreets"
   count: 1
@@ -16,14 +17,16 @@
   description: "A crowdsourcing platform that promotes more clean, connected, and collaborative communities
      by allowing users to post issues they notice in their surrounding locations, share details about the 
      assistance that may be required, and automatically update the addresses and dates of when the posts were made."
+  technologies: "HTML, CSS, Javascript (jQuery, Node.js, Leaflet.js, EJS), Nominatim, MongoDB, Mongoose"
 
 - id: "proteinresearch"
   count: 2
   title: "Machine Learning Research"
   image: "assets/graphics/projects/Regeneron.jpg"
   link: "https://sspcdn.blob.core.windows.net/files/Documents/SEP/STS/2019/STS%202019%20Scholar%20Book.pdf#page=15"
-  award: "Regeneron STS 2019 Scholar"
+  award: "2019 Regeneron STS Scholar"
   description: "A machine learning model for protein subcellular localization predictions to help identify 
     drug targets and contribute to drug repurposing efforts for many protein dysfunctional diseases, 
     including cancer, asthma, and Alzheimer&#39;s."
+  technologies: "Python (TensorFlow, Keras, Scikit-learn)"
 

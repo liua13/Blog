@@ -6,11 +6,7 @@
 
 #nav{
 	margin-top: 0px;
-	background-color: #469DD6;
-}
-
-h1{
-	font-family: "Oswald";
+	background-color: #09283a;
 }
 
 a{
@@ -18,7 +14,7 @@ a{
 }
 
 .blog{
-	padding: 90px 0px 75px 0px;
+	padding: 150px 0px 75px 0px;
 	border-bottom: 1px solid gray;
 }
 
@@ -49,18 +45,18 @@ a{
 
 // date
 .post-date{
-	font-size: 15px;
+	font-size: 16px;
 	color: gray;
 	margin: 0px 5px 0px 0px;
 	padding: 0px;
-	font-family: "Open Sans";
+	font-family: "Barlow";
 }
 
 // category
 .post-category{
-	font-size: 15px;
+	font-size: 17px;
 	color: #469DD6;
-	font-family: "Open Sans";
+	font-family: "Alegreya Sans SC";
 	text-transform: uppercase;
 	margin: 0px 0px 0px 5px;
 }
@@ -163,11 +159,11 @@ li{
 
 // date and categories
 .post-meta{
-	font-size: 15px;
+	font-size: 16px;
 	color: gray;
 	margin: 0px 5px 0px 0px;
 	padding: 40px 0px 0px 0px;
-	font-family: "Open Sans";
+	font-family: "Barlow";
 }
 
 // title
@@ -178,7 +174,8 @@ li{
 // subtitle
 .post-subtitle{
 	color: black;
-	font-family: "Open Sans Condensed";
+	font-size: 17px;
+	font-family: "Barlow";
 	padding-bottom: 10px;
 }
 
@@ -192,7 +189,8 @@ li{
 
 // caption
 .post-caption{
-	font-family: "Open Sans Condensed";
+	font-size: 17px;
+	font-family: "Barlow";
 	font-style: italic;
 }
 
@@ -200,9 +198,10 @@ li{
 .post-content{
 	padding-top: 0px;
 	text-align: justify;
-	font-family: 'Open Sans Condensed';
+	font-family: 'Barlow';
 	width: 50%;
 	margin: 40px auto;
+	font-size: 19px;
 }
 
 @media screen and (max-width: 800px) {

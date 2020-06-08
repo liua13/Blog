@@ -19,9 +19,9 @@ layout: default
 <body>
 <div id="background">
 		<p id="animate">
-			<span class="home-intro">--- hey, i'm ---</span><br>
+			<span class="home-intro">nice to meet you, i'm</span><br>
 			<span class="site-title">{{ site.title | escape }}</span><br>
-			. <span class="home-intro" id="greetings"></span>
+			<span class="home-intro" id="greetings"></span>
 			<span class="home-intro" id="cursor">|</span>
 		</p>
 </div>
@@ -44,10 +44,11 @@ layout: default
 			<div id="project">
 		{%- endif -%}
 		<div class="project-info-div">
-			<a href="{{ path.link }}"><img class="project-image" src="{{ path.image }}" ></img></a>
+			<a href="{{ path.link }}" target="_blank"><img class="project-image" src="{{ path.image }}" ></img></a>
 			<div class="project-info">
 				<p><span class="project-title">{{ path.title }}</span><br><span class="project-award">{{ path.award }}</span></p>
 				<p class="project-description">{{ path.description }}</p>
+				<p class="project-technologies">TECHNOLOGIES: {{ path.technologies }}</p>
 			</div>
 		</div>
 

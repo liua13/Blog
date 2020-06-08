@@ -55,21 +55,33 @@ function cursor(){
 }
 
 // nav bar
+/*
 var previousY = $(this).scrollTop;
 $(window).scroll(function() {
 	var y = $(this).scrollTop();
-	if (y < 180) {
-		$("#nav").css("display", "inline-block");
+
+	if(previousY > y){
+    	$("#nav").fadeIn();
+    } else {
+    	$("#nav").fadeOut();
+    }
+
+	if (y == 0){
 		$("#nav").css("background-color", "transparent");
-	} else if(y < 690) {
-		$("#nav").css("display", "inline-block");
-		$("#nav").css("background-color", "#469DD6");
 	} else {
-	    if(previousY > y){
-	    	$("#nav").fadeIn();
-	    } else {
-	    	$("#nav").fadeOut();
-	    }
-	}
+		$("#nav").css("background-color", "#09283a");
+	} 
+
 	previousY = y;
+});
+*/
+
+$(window).scroll(function() {
+	var y = $(this).scrollTop();
+
+	if(y < 50){
+    	$("#nav").show();
+    } else {
+    	$("#nav").hide();
+    }
 });
