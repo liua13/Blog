@@ -75,3 +75,17 @@ $(window).scroll(function() {
 	previousY = y;
 });
 */
+
+$(window).scroll(function() {
+	var y = $(this).scrollTop();
+
+	if(y < 50){
+    	$("#nav").removeClass('nav-scroll');
+    	$(".page-link").css('color', 'white');
+    	$(".page-link:after").css('background-color', 'white');
+    } else {
+    	$("#nav").addClass('nav-scroll');
+    	$(".page-link").css('color', '#09283a');
+    	$(".page-link:after").css('background-color', '#09283a');
+    }
+});

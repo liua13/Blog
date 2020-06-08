@@ -6,6 +6,15 @@
 
 #nav{
 	margin-top: 0px;
+	background-color: white;
+	border-bottom: 1px solid #C0C0C0; // silver
+}
+
+.page-link{
+	color: #09283a;
+}
+
+.page-link:after{
 	background-color: #09283a;
 }
 
@@ -15,7 +24,7 @@ a{
 
 .blog{
 	padding: 125px 0px 75px 0px;
-	border-bottom: 1px solid gray;
+	background-color: #DCDCDC; // gray
 }
 
 .post-div{

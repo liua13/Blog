@@ -68,7 +68,7 @@ ul{
 		margin: 0 auto;
 		display: block;
 		overflow: auto;
-		width: 325px;
+		width: 220px;
 
 		.svg-icon {
 			width: 16px;
@@ -80,7 +80,7 @@ ul{
 		}
 
 		:not(:last-child){
-			margin-right: 20px;
+			margin: 0px 5px;
 		}
 	}
 }

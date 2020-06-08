@@ -24,7 +24,7 @@ copyright: © Copyright 2020 Annie Liu
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Hi! I'm Annie Liu (she/her), a second year undergrad at MIT pursuing a major in computer 
-  science. I'm interested in full-stack development, machine learning, and writing.
+  science. I'm interested in full-stack development, data science, and writing.
   My interests lie in understanding ourselves better and using the tools we have to solve problems 
   we face, whether it's through books or technology. Coding and writing, 
   in my eyes, are extremely similar: Through the lines of code I write, 
@@ -40,8 +40,6 @@ codebase: Blog
 mail: annieliu@mit.edu
 github_username:  liua13
 linkedin_username: liuannie01
-goodreads_username: user/show/98596840-annie-liu
-quora_username: Annie-Liu-75
 rss: feed.xml
 
 # Build settings
