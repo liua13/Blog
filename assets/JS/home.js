@@ -75,13 +75,3 @@ $(window).scroll(function() {
 	previousY = y;
 });
 */
-
-$(window).scroll(function() {
-	var y = $(this).scrollTop();
-
-	if(y < 50){
-    	$("#nav").show();
-    } else {
-    	$("#nav").hide();
-    }
-});
