@@ -38,8 +38,8 @@ url: "http://www.annieliu.me" # the base hostname & protocol for your site, e.g.
 google_analytics: UA-155204630-1
 codebase: Blog
 mail: annieliu@mit.edu
-github_username:  liua13
 linkedin_username: liuannie01
+github_username:  liua13
 rss: feed.xml
 
 # Build settings

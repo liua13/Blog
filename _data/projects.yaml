@@ -13,11 +13,11 @@
   title: "Open Streets"
   image: "assets/graphics/projects/OpenStreets.jpg"
   link: "https://github.com/liua13/OpenStreets"
-  award: "TechTogether Boston 2020 Hackathon Winner (MLH Best Use of MongoDB)"
+  award: "MLH Best Use of MongoDB Winner @ TechTogether Boston 2020 Hackathon "
   description: "A crowdsourcing platform that promotes more clean, connected, and collaborative communities
      by allowing users to post issues they notice in their surrounding locations, share details about the 
      assistance that may be required, and automatically update the addresses and dates of when the posts were made."
-  technologies: "HTML, CSS, Javascript (jQuery, Node.js, Leaflet.js, EJS), Nominatim, MongoDB, Mongoose"
+  technologies: "HTML, CSS, Javascript (jQuery, Node.js, EJS, Leaflet.js), Nominatim, MongoDB, Mongoose"
 
 - id: "proteinresearch"
   count: 2
@@ -28,5 +28,5 @@
   description: "A machine learning model for protein subcellular localization predictions to help identify 
     drug targets and contribute to drug repurposing efforts for many protein dysfunctional diseases, 
     including cancer, asthma, and Alzheimer&#39;s."
-  technologies: "Python (TensorFlow, Keras, Scikit-learn)"
+  technologies: "Python (Scikit-learn, TensorFlow, Keras)"
 

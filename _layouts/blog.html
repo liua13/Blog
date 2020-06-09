@@ -27,7 +27,6 @@ layout: default
 
           <div class="post-info">
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-date">{{ post.date | date: date_format }} </span><span style="color:gray;"> | </span>
             {%- if post.categories-%}
               <a class="post-category" href="categories/#{{ post.categories[0] }}">{{post.categories[0] | escape}}</a>
             {%- endif -%}
@@ -40,6 +39,8 @@ layout: default
             {%- if post.subtitle -%}
               <p class="post-subtitle">{{ post.subtitle }}</p>
             {%- endif -%}
+
+            <span class="post-date">{{ post.date | date: date_format }} </span><span style="color:gray;"></span>
 
           </div>
         </div>

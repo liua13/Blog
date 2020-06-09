@@ -5,7 +5,7 @@
   {%- if site.mail -%}<li><a href="mailto:{{ site.mail| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/graphics/social-icons.svg#mail' | relative_url }}"></use></svg> <span class="username">{{ site.mail| escape }}</span></a></li>{%- endif -%}
 
   {%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/graphics/social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a></li>{%- endif -%}
-
+  
   {%- if site.linkedin_username -%}<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/graphics/social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">{{ site.linkedin_username| escape }}</span></a></li>{%- endif -%}
 
   {%- if site.goodreads_username -%}<li><a href="https://goodreads.com/{{ site.goodreads_username}}"><svg class="svg-icon"><use xlink:href="{{ '/assets/graphics/social-icons.svg#goodreads' | relative_url }}"></use></svg> <span class="username">{{ site.goodreads_username| escape }}</span></a></li>{%- endif -%}

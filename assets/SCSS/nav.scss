@@ -12,14 +12,6 @@
 	margin-top:10px;
 }
 
-.nav-scroll{
-	background-color: white;
-	border-bottom: 1px solid #C0C0C0; // silver 
-	-webkit-box-shadow: 0 4px 6px -6px #222;
-	-moz-box-shadow: 0 4px 6px -6px #222;
-	box-shadow: 0 4px 6px -6px #222;
-}
-
 .site-nav{
 	font-family: "Alegreya Sans";
 	text-transform: uppercase;
@@ -53,4 +45,11 @@
 
 .page-link:hover:after{
 	width: 100%;
+}
+
+.nav-scroll{
+	background-color: black;
+	-webkit-box-shadow: 0 4px 6px -6px #222;
+	-moz-box-shadow: 0 4px 6px -6px #222;
+	box-shadow: 0 4px 6px -6px #222;
 }

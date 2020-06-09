@@ -13,7 +13,7 @@
 	height: 700px;
 	padding: 0;
 	margin: -30px 0px 0px -10px;
-	width: 100%;
+	width: 100.7%;
 }
 
 #animate{
@@ -48,6 +48,7 @@
 	overflow: auto;
 	margin-left: 0px;
 	padding: 75px 0px;
+	border-bottom: 1px solid black;
 }
 
 #aboutme{
@@ -68,13 +69,7 @@ p{
 }
 
 #projects{
-	padding-bottom: 100px;
 	text-align: center;
-	background-color: #09283a;
-}
-
-#projects h1{
-	color: white;
 }
 
 #project{
@@ -130,6 +125,10 @@ p{
 
 // when browser is small
 @media only screen and (max-width: 1130px) {
+	#background{
+		width: 101.5%;
+	}
+
 	#mypic, #aboutme{
 		display: block;
 		margin: auto;
