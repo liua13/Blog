@@ -28,10 +28,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   in addition to coding skills, I love to write stories. Although computer science and writing may 
   seem as different as anything gets, I believe that the creativity and storytelling involved in 
   writing is important in technology as well. Code should tell a story, so other engineers can 
-  understand the flow. Data should tell a story, so you can see the general pattern. After all, 
-  you communicate with computers the same way you communicate with the people around you. The 
-  only difference is, instead of English, it's in Python.
-  
+  understand the flow. You need the same analytical skills in coding to stand the test of time 
+  as you need to prevent plotholes in stories. After all, you communicate with computers the same way 
+  you communicate with the people around you. The only difference is, instead of English, it's in Python.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.annieliu.me" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-155204630-1
