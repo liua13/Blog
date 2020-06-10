@@ -30,7 +30,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   writing is important in technology as well. Code should tell a story, so other engineers can 
   understand the flow. You need the same analytical skills in coding to stand the test of time 
   as you need to prevent plotholes in stories. After all, you communicate with computers the same way 
-  you communicate with the people around you. The only difference is, instead of English, it's in Python.
+  you communicate with the people around you. The only difference is, instead of English, it's in Python. 
+  Whether it's through English or Python, I hope to make a difference in the world. 
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.annieliu.me" # the base hostname & protocol for your site, e.g. http://example.com
