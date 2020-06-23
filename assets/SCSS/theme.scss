@@ -77,10 +77,11 @@ ul{
 			padding: 5px 3px 2px 5px;
 			vertical-align: top;
 			float:left;
+			fill: white;
 		}
 
 		.svg-icon:hover {
-			filter: grayscale(100%);
+			fill: #D3D3D3;
 		}
 
 		:not(:last-child){
