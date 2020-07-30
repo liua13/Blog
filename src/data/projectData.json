@@ -1,0 +1,51 @@
+[
+  {
+    "id": "lyricalnotes",
+    "date": "jul 2020",
+    "title": "Lyrical Notes",
+    "image": "LyricalNotes.png",
+    "link": "https://lyrical-notes.herokuapp.com/",
+    "description": "A guessing game from listening to a 30 second preview of a song from Spotify",
+    "technologies": "Node, React, Spotify Web API"
+  },
+  {
+    "id": "mappingproject",
+    "date": "jun 2020",
+    "title": "Mapping Visualization",
+    "image": "Mapping.png",
+    "caption": "Internship @ Kupenda for the Children",
+    "link": "https://mapping-vis.herokuapp.com/",
+    "description": "An interactive map with a filter based on user-selected properties and a feature that allows the user to find the closest facilities from any marker. Meant to help save the lives of hundreds of disabled children living in Kenya at high risk of falling through the cracks and change policies regarding these issues. <a class='link' href='https://mapping-vis.herokuapp.com/'>Demo with mock data</a>",
+    "technologies": "Leaflet, Node"
+  },
+  {
+    "id": "creativelearning",
+    "date": "jan - may 2020",
+    "title": "Creative Learning Tool",
+    "image": "CreativeLearning.jpg",
+    "caption": "UROP @ MIT Media Lab (Lifelong Kindergarten Group)",
+    "link": "https://www.media.mit.edu/groups/lifelong-kindergarten/overview/",
+    "description": "A creative learning tool to help teachers and educators work and learn more creatively and interactively, since current tools do not address the issues that they face.",
+    "technologies": "HTML, CSS, Javascript (jQuery, Node.js, EJS), MongoDB, Mongoose"
+  },
+  {
+    "id": "openstreets",
+    "date": "jan 2020",
+    "title": "Open Streets",
+    "image": "OpenStreets.jpg",
+    "link": "https://github.com/liua13/OpenStreets",
+    "caption": "MLH Best Use of MongoDB Winner @ TechTogether Boston Hackathon",
+    "description": "A crowdsourcing platform that promotes more clean, connected, and collaborative communities by allowing users to post issues on a map, share details, and automatically update the dates and addresses of the posts.",
+    "technologies": "HTML, CSS, Javascript (jQuery, Node.js, EJS, Leaflet.js), Nominatim, MongoDB, Mongoose"
+  },
+  {
+    "id": "proteinresearch",
+    "date": "nov 2018",
+    "title": "Machine Learning Research",
+    "image": "Regeneron.jpg",
+    "link": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/STS/2019/STS%202019%20Scholar%20Book.pdf#page=15",
+    "caption": "Regeneron STS Scholar (formerly Intel Science Talent Search Semifinalist)",
+    "description": "A machine learning model for protein subcellular localization predictions to help identify drug targets and contribute to drug repurposing efforts for many protein dysfunctional diseases, including cancer, asthma, and Alzheimer's.",
+    "technologies": "Python (Scikit-learn, TensorFlow, Keras)"
+  }
+]
