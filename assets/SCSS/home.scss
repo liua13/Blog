@@ -1,0 +1,167 @@
+---
+---
+
+@import "theme.scss";
+@import "nav.scss";
+
+// homepage background
+#background {
+  background-image: url("../graphics/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 700px;
+  padding: 0;
+  margin: -30px 0px 0px 0px;
+  max-width: 100%;
+}
+
+.link {
+  color: #a9a9a9;
+}
+.link:hover {
+  color: #54198b; // purple
+}
+
+#animate {
+  font-family: "Alegreya Sans", "sans serif";
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 250px;
+}
+
+#mypic {
+  margin: 20px 0px 20px 10px;
+  width: 30%;
+  float: left;
+
+  img {
+    border-radius: 400px;
+    height: auto;
+    width: 250px;
+    float: right;
+    padding: 20px 0px;
+  }
+}
+
+// about and projects sections
+#about,
+#projects {
+  font-family: "Alegreya Sans", serif;
+  width: 100%;
+  display: block;
+  overflow: auto;
+  margin-left: 0px;
+  padding: 75px 0px;
+  border-bottom: 1px solid black;
+}
+
+#aboutme {
+  margin: 0px 125px 0px 30px;
+  text-align: center;
+  width: 50%;
+  float: right;
+  padding: 0px 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+#projects {
+  text-align: center;
+}
+
+#project {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align: center;
+  margin: 0 auto;
+}
+
+.project-info-div {
+  width: 100%;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-info {
+  margin: 0;
+  padding: 10px 25px 20px 25px;
+}
+
+.project-image:hover {
+  opacity: 0.5;
+}
+
+.project-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Alegreya Sans SC;
+}
+
+.project-date {
+  font-size: 15px;
+  float: right;
+  color: #54198b;
+}
+
+.project-award {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.project-description {
+  font-size: 18px;
+}
+
+.project-technologies {
+  font-size: 18px;
+}
+
+// when browser is small
+@media only screen and (max-width: 1130px) {
+  #mypic,
+  #aboutme {
+    display: block;
+    margin: auto;
+    width: 80%;
+    float: none;
+
+    img {
+      float: none;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  #project {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #project {
+    width: 350px;
+  }
+}

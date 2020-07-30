@@ -1,0 +1,207 @@
+---
+---
+
+@import "theme.scss";
+@import "nav.scss";
+
+#nav {
+  margin-top: 0px;
+  background-color: black;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+a {
+  color: black;
+}
+
+.blog {
+  padding: 125px 0px 75px 0px;
+}
+
+.post-div {
+  margin: auto;
+  padding: 10px 10px 30px 10px;
+  clear: left;
+  display: block;
+  width: 65%;
+
+  .post-image {
+    width: 35%;
+    float: left;
+    border-radius: 10px;
+  }
+
+  .post-info {
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    padding: 10px 10px 10px 25px;
+  }
+}
+
+.post-image:hover {
+  opacity: 0.5;
+}
+
+// date
+.post-date {
+  font-size: 16px;
+  color: gray;
+  padding: 0px;
+  font-family: "Barlow";
+}
+
+// category
+.post-category {
+  font-size: 17px;
+  color: #6e67b5; // purple
+  font-family: "Alegreya Sans SC";
+  text-transform: uppercase;
+}
+
+.post-category:hover {
+  color: gray;
+}
+
+// title
+h3 {
+  font-family: "Oswald";
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.post-link:hover {
+  color: #6e67b5;
+}
+
+// footer
+.social-media-list li {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 1150px) {
+  .post-div {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .blog {
+    padding-bottom: 0px;
+  }
+
+  .post-div {
+    padding-bottom: 40px;
+
+    .post-image {
+      width: 100%;
+    }
+
+    .post-info {
+      width: 90%;
+    }
+  }
+}
+
+// *** categories scss ***
+
+#categories {
+  padding: 70px 0px 75px 0px;
+}
+
+.category-title {
+  text-transform: uppercase;
+  color: #6e67b5;
+  font-family: "Oswald";
+  font-size: 30px;
+  text-align: center;
+  margin: 50px auto 0px auto;
+}
+
+// *** post page scss ***
+
+// for notes
+li {
+  margin: 0px 40px 40px 0px;
+  color: gray;
+}
+
+// whole post page
+.post {
+  margin: auto;
+  padding: 85px 0px 40px 0px;
+}
+
+// date, category, title, subtitle, image, caption
+.post-header {
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin: auto;
+
+  p {
+    margin: 0px;
+  }
+}
+
+// date and categories
+.post-meta {
+  font-size: 16px;
+  color: gray;
+  margin: 0px 5px 0px 0px;
+  padding: 40px 0px 0px 0px;
+  font-family: "Barlow";
+}
+
+// title
+.post-title {
+  margin: 0;
+}
+
+// subtitle
+.post-subtitle {
+  color: black;
+  font-size: 17px;
+  font-family: "Barlow";
+  padding-bottom: 10px;
+}
+
+// image
+.post-image-div {
+  display: block;
+  width: 95%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+// caption
+.post-caption {
+  font-size: 17px;
+  font-family: "Barlow";
+  font-style: italic;
+}
+
+// actual post content
+.post-content {
+  padding-top: 0px;
+  text-align: justify;
+  font-family: "Barlow";
+  width: 50%;
+  margin: 40px auto;
+  font-size: 19px;
+}
+
+@media screen and (max-width: 800px) {
+  .post-header {
+    width: 90%;
+  }
+
+  .post-content {
+    width: 75%;
+  }
+}

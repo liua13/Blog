@@ -1,0 +1,8 @@
+- page: "home"
+  url: "/"
+- page: "about"
+  url: "/#about"
+- page: "projects"
+  url: "/#projects"
+- page: "blog"
+  url: "/blog/"

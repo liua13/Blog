@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<head>
+  <link rel="stylesheet" href="{{ '/assets/SCSS/blog.css' | relative_url }}">
+</head>
+
+<div id="categories">
+  <div>
+  {%- if site.categories.size > 0 -%}
+    {%- for category in site.categories -%}
+
+    <h1 class="category-title" id="#{{ category[0] }}">{{ category[0] }}</h1>
+
+  
+    {%- for post in category[1] -%}
+    <div class="post-div">
+      <img class="post-image" src="{{ post.image | relative_url }}">
+
+      <div class="post-info">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if post.subtitle -%}
+          <p class="post-subtitle">{{ post.subtitle }}</p>
+        {%- endif -%}
+    </div>
+    </div>
+    {%- endfor -%}
+
+
+    {%- endfor -%}
+  {%- endif -%}
+
+  </div>
+</div>
+
+</div>
