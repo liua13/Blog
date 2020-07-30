@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Fade from "react-reveal/Fade"
@@ -44,7 +44,38 @@ const Projects = () => {
     }
   `)
 
-  if (window.outerWidth <= 975) {
+  function useWindowSize() {
+    const [windowSize, setWindowSize] = useState({
+      width: undefined,
+      height: undefined,
+    })
+
+    useEffect(() => {
+      // Handler to call on window resize
+      function handleResize() {
+        setWindowSize({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        })
+      }
+
+      // Add event listener
+      window.addEventListener("resize", handleResize)
+
+      // Call handler right away so state gets updated with initial window size
+      handleResize()
+
+      // Remove event listener on cleanup
+      return () => window.removeEventListener("resize", handleResize)
+    }, []) // Empty array ensures that effect is only run on mount
+
+    return windowSize
+  }
+
+  const windowSize = useWindowSize()
+  console.log(windowSize)
+
+  if (windowSize.width <= 976) {
     return (
       <SectionWrapper id="projects">
         <Fade bottom>
