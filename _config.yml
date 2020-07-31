@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -21,17 +21,9 @@
 title: Annie Liu
 author: Annie Liu
 copyright: © Copyright 2020 Annie Liu
-email: 
+email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm Annie Liu (she/her), a second year undergrad at MIT pursuing a major in computer 
-  science. I'm interested in full-stack development and data science, but that's not all:
-  in addition to coding skills, I love to write stories. Although computer science and writing may 
-  seem as different as anything gets, I believe that the creativity and storytelling involved in 
-  writing is important in technology as well. Code should tell a story, so other engineers can 
-  understand the flow. You need the same analytical skills in coding to stand the test of time 
-  as you need to prevent plotholes in stories. After all, you communicate with computers the same way 
-  you communicate with the people around you. The only difference is, instead of English, it's in Python. 
-  Whether it's through English or Python, I hope to make a difference in whatever I do. 
+  Hi! I'm Annie Liu (she/her/hers), a second year undergrad at MIT pursuing a major in computer science. I'm extremely interested in how technology can tell us more about ourselves and better inform the decisions we make in our lives. I love completing projects and learning new things along the way! Other than coding, I enjoy writing, running, rock climbing, and listening to music.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.annieliu.me" # the base hostname & protocol for your site, e.g. http://example.com
@@ -39,7 +31,7 @@ google_analytics: UA-155204630-1
 codebase: Blog
 mail: annieliu@mit.edu
 linkedin_username: liuannie01
-github_username:  liua13
+github_username: liua13
 rss: feed.xml
 
 # Build settings
