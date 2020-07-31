@@ -81,7 +81,7 @@ const Content = styled.div`
   }
 `
 
-const BlogPost = props => {
+export default props => {
   const {
     slug,
     date,
@@ -91,6 +91,8 @@ const BlogPost = props => {
     caption,
     categories,
     content,
+    previous,
+    next,
   } = props.pageContext
 
   const ImageComponent = styled(BackgroundImage)`
@@ -124,12 +126,84 @@ const BlogPost = props => {
             </Category>
           ))}
         </HeaderWrapper>
-        {/* <div>{content}</div> */}
+
         <Content dangerouslySetInnerHTML={{ __html: content }}></Content>
+
+        <PreviousWrapper>
+          <PreviousNext postInfo={previous} symbol="<" text="previous" />
+        </PreviousWrapper>
+
+        <NextWrapper>
+          <PreviousNext postInfo={next} symbol=">" text="next" />
+        </NextWrapper>
       </BodyWrapper>
+
       <Footer />
     </div>
   )
 }
 
-export default BlogPost
+// -------------------------
+// for the PREVIOUS / NEXT links on bottom of page
+
+const PreviousNext = ({ postInfo, symbol, text }) => {
+  if (postInfo) {
+    return (
+      <PreviousNextWrapper>
+        <PreviousNextLink to={`/post${postInfo.fields.slug}`}>
+          <Symbol style={{ marginRight: "10px" }}>
+            {symbol === "<" ? symbol : ""}
+          </Symbol>
+        </PreviousNextLink>
+
+        <div>
+          <PreviousNextText>{text} post</PreviousNextText>
+          <PreviousNextLink
+            to={`/post${postInfo.fields.slug}`}
+            style={{ fontSize: "20px" }}
+          >
+            {postInfo.frontmatter.title}
+          </PreviousNextLink>
+        </div>
+
+        <PreviousNextLink to={`/post${postInfo.fields.slug}`}>
+          <Symbol style={{ marginLeft: "10px" }}>
+            {symbol === ">" ? symbol : ""}
+          </Symbol>
+        </PreviousNextLink>
+      </PreviousNextWrapper>
+    )
+  } else {
+    return <span></span>
+  }
+}
+
+const PreviousWrapper = styled.div``
+
+const NextWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`
+
+const PreviousNextLink = styled(LinkWrapper)`
+  :hover {
+    color: #a9a9a9;
+  }
+`
+
+const Symbol = styled.div`
+  font-size: 25px;
+  font-weight: lighter;
+  height: 100%;
+`
+
+const PreviousNextWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+`
+
+const PreviousNextText = styled.div`
+  text-transform: uppercase;
+  color: #a9a9a9;
+`

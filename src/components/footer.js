@@ -10,11 +10,12 @@ const FooterWrapper = styled.footer`
   text-align: center;
   padding: 50px 0px;
   color: white;
+  bottom: 0;
+  height: auto;
+
   a {
     color: white;
   }
-  bottom: 0;
-  height: auto;
 `
 
 const Footer = () => {

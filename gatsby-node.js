@@ -68,7 +68,8 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   const allCategories = {}
-  data.data.posts.edges.forEach(({ node }) => {
+  const allPosts = data.data.posts.edges
+  allPosts.forEach(({ node }, index) => {
     const postInfo = node.frontmatter
     const postImage = data.data.images.edges.find(
       x => x.node.childImageSharp.fluid.originalName === postInfo.image
@@ -81,7 +82,6 @@ exports.createPages = async ({ graphql, actions }) => {
         allCategories[category] = [node]
       }
     })
-
     createPage({
       path: `/post${node.fields.slug}`,
       component: path.resolve(`./src/components/blog/post.js`),
@@ -96,6 +96,8 @@ exports.createPages = async ({ graphql, actions }) => {
         caption: postInfo.caption,
         categories: postInfo.categories,
         content: node.html,
+        previous: index === 0 ? null : allPosts[index - 1].node,
+        next: index === allPosts.length - 1 ? null : allPosts[index + 1].node,
       },
     })
   })
