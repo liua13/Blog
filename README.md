@@ -1,3 +1,3 @@
-# Blog
+# Version1
 
-Annie Liu's personal website and blog built using Jekyll
+Version 1 of my personal website & blog built using Jekyll
