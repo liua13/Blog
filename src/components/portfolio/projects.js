@@ -73,7 +73,6 @@ const Projects = () => {
   }
 
   const windowSize = useWindowSize()
-  console.log(windowSize)
 
   if (windowSize.width <= 976) {
     return (
