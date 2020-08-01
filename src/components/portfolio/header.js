@@ -3,10 +3,11 @@ import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import styled from "styled-components"
 import Fade from "react-reveal/Fade"
-
 import Typing from "react-typing-animation"
 
 import Social from "../social"
+
+const words = ["learning", "coding", "writing"]
 
 const BackgroundImageWrapper = styled(BackgroundImage)`
   min-height: 90vh;
@@ -54,13 +55,20 @@ const Header = () => {
           <span>hey, i'm</span>
           <SiteName>ANNIE LIU</SiteName>
           <Social />
+          passionate about
+          <div style={{ paddingLeft: "5px", display: "inline-block" }}>
+            <Typing hideCursor={true} loop={true}>
+              {words.map(word => (
+                <>
+                  <Typing.Delay ms={400} />
+                  <span>{word}</span>
+                  <Typing.Delay ms={500} />
 
-          <Typing hideCursor={true}>
-            <Typing.Delay ms={400} />
-            <span>nice to meet you!</span>
-            {/* <Typing.Delay ms={500} />
-          <Typing.Backspace count={1000} /> */}
-          </Typing>
+                  <Typing.Backspace count={10} />
+                </>
+              ))}
+            </Typing>
+          </div>
         </TextWrapper>
       </Fade>
     </BackgroundImageWrapper>

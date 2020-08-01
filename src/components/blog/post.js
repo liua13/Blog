@@ -1,6 +1,7 @@
 import React from "react"
 import BackgroundImage from "gatsby-background-image"
 import styled from "styled-components"
+import Fade from "react-reveal/Fade"
 
 import LinkWrapper from "../linkWrapper"
 import Nav from "../nav"
@@ -108,8 +109,12 @@ export default props => {
       <ImageWrapper>
         <ImageComponent fluid={image}>
           <BackgroundText>
-            <Title>{title}</Title>
-            <Caption>{caption}</Caption>
+            <Fade bottom>
+              <>
+                <Title>{title}</Title>
+                <Caption>{caption}</Caption>
+              </>
+            </Fade>
           </BackgroundText>
         </ImageComponent>
       </ImageWrapper>
