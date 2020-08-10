@@ -6,6 +6,16 @@
 
 // You can delete this file if you're not using it
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+  const { setWebpackConfig } = actions
+  setWebpackConfig({
+    externals: {
+      jquery: "jQuery", // important: 'Q' capitalized
+      d3: "d3",
+    },
+  })
+}
+
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
@@ -38,6 +48,7 @@ exports.createPages = async ({ graphql, actions }) => {
               image
               caption
               categories
+              data_vis
             }
             html
           }
@@ -95,6 +106,7 @@ exports.createPages = async ({ graphql, actions }) => {
         image: postImage.node.childImageSharp.fluid,
         caption: postInfo.caption,
         categories: postInfo.categories,
+        data_vis: postInfo.data_vis,
         content: node.html,
         previous: index === 0 ? null : allPosts[index - 1].node,
         next: index === allPosts.length - 1 ? null : allPosts[index + 1].node,

@@ -34,7 +34,6 @@ a {
   color: #8a4baf; /* or #653399 */
 }
 
-#jeje {
-  border: 1px solid orange;
-  fill: white;
+ul {
+  padding-left: 40px;
 }

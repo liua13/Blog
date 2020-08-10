@@ -3,7 +3,7 @@ title: "The First of Many"
 subtitle: "Now that I've finished building my personal page and blog, here's the first post of many more to come."
 date: "2019-12-30"
 image: "the-first-of-many.jpg"
-caption: "A photograph I took around my neighborhood as a reminder that much like the tracks, I can't see into the future but it is full of so many possibilities."
+caption: "A photograph I took around my neighborhood as a reminder that much like the tracks, I can't see into the future but it is full of so many possibilities"
 categories: ["thoughts"]
 published: true
 ---

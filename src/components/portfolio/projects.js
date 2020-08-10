@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade"
 
 import Project from "./project"
 import projectData from "../../data/projectData.json"
+import LinkWrapper from "../linkWrapper"
 
 const SectionWrapper = styled.div`
   background-color: #eeeeee;
@@ -13,6 +14,13 @@ const SectionWrapper = styled.div`
 const HeaderWrapper = styled.h3`
   text-align: center;
   font-size: 35px;
+`
+
+const ProjectsLinkWrapper = styled.div`
+  text-align: center;
+  a:hover {
+    color: #a9a9a9;
+  }
 `
 
 const ProjectWrapper = styled.div`
@@ -51,7 +59,6 @@ const Projects = () => {
     })
 
     useEffect(() => {
-      // Handler to call on window resize
       function handleResize() {
         setWindowSize({
           width: window.innerWidth,
@@ -59,28 +66,32 @@ const Projects = () => {
         })
       }
 
-      // Add event listener
+      // add event listener
       window.addEventListener("resize", handleResize)
 
-      // Call handler right away so state gets updated with initial window size
+      // initial window resize
       handleResize()
 
-      // Remove event listener on cleanup
+      // remove event listener on cleanup
       return () => window.removeEventListener("resize", handleResize)
-    }, []) // Empty array ensures that effect is only run on mount
+    }, []) // only run on mount
 
     return windowSize
   }
 
   const windowSize = useWindowSize()
-
+  const Header = (
+    <Fade bottom>
+      <HeaderWrapper>PROJECTS</HeaderWrapper>
+      <ProjectsLinkWrapper>
+        <LinkWrapper to="/category/projects/">+ more on my blog</LinkWrapper>
+      </ProjectsLinkWrapper>
+    </Fade>
+  )
   if (windowSize.width <= 976) {
     return (
       <SectionWrapper id="projects">
-        <Fade bottom>
-          <HeaderWrapper>PROJECTS</HeaderWrapper>
-        </Fade>
-
+        {Header}
         <ProjectWrapper>
           {projectData.map(project => {
             const projectImage = images.allFile.edges.find(
@@ -117,9 +128,7 @@ const Projects = () => {
 
     return (
       <SectionWrapper id="projects">
-        <Fade bottom>
-          <HeaderWrapper>PROJECTS</HeaderWrapper>
-        </Fade>
+        {Header}
         <ProjectWrapper>
           {data.map(projects => (
             <Fade bottom key={projects[0].id}>

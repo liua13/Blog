@@ -3,8 +3,8 @@ title: "Havah"
 subtitle: "From being vegetarian to writing a novel together, Havah has taught me a lot about myself and the world around me."
 date: "2020-03-07"
 image: "havah.jpg"
-caption: "Havah spent a weekend with me in Boston during my first semester of MIT."
-categories: ["writing"]
+caption: "Havah spent a weekend with me in Boston during my first semester of MIT"
+categories: ["writing", "friendship"]
 published: true
 ---
 
