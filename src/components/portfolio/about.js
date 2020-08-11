@@ -106,8 +106,8 @@ const About = () => {
                 </li>
                 <li>I was vegetarian for two years</li>
                 <li>
-                  The thing I'm most scared of never reaching my full potential,
-                  whether it's regret over missing opportunities or not enjoying
+                  I'm most scared of never reaching my fullest potential,
+                  whether it's regret over missed opportunities or not enjoying
                   my life until it's too late
                 </li>
               </ul>
