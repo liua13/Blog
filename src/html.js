@@ -11,16 +11,16 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <script
+        {/* <script
           src="https://code.jquery.com/jquery-3.3.1.min.js"
           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
           crossOrigin="anonymous"
-        />
-        <script
+        /> */}
+        {/* <script
           src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"
           integrity="sha256-+9Mf3cAVmxxudDsr1XwXUeRZFtvdWVYdq5/vcgiYyNU="
           crossOrigin="anonymous"
-        ></script>
+        ></script> */}
 
         {props.headComponents}
       </head>

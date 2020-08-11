@@ -59,7 +59,7 @@ const Caption = styled.div`
   font-size: 20px;
 `
 
-const Date = styled.div`
+const DateWrapper = styled.div`
   font-size: 19px;
   font-family: "Barlow", sans-serif;
 `
@@ -107,13 +107,27 @@ const BlogPost = props => {
       filter: brightness(60%);
     }
   `
+  let data = null
 
   useEffect(() => {
-    if (data_vis) {
+    if (data_vis && window) {
       if (data_vis[1] === "json") {
         d3.json(data_vis[0])
           .then(oldData => {
-            let data = oldData.map(element => {
+            // when data was last updated
+            let lastUpdated = new Date() - new Date(oldData[0])
+            const minutes = lastUpdated / (1000 * 60)
+            lastUpdated =
+              minutes < 60
+                ? Math.round(minutes) === 1
+                  ? `${Math.round(minutes)} minute`
+                  : `${Math.round(minutes)} minutes`
+                : Math.round(minutes / 60) === 1
+                ? `${Math.round(minutes / 60)} hour`
+                : `${Math.round(minutes / 60)} hours`
+            $("#lastUpdated").html(`about ${lastUpdated} ago`)
+
+            let data = oldData[1].map(element => {
               const newDate = element.date.split("T")[0]
               return {
                 ...element,
@@ -137,7 +151,7 @@ const BlogPost = props => {
           .catch(error => console.log(error))
       }
     }
-  }, [])
+  }, [data])
 
   const updateCharts = data => {
     d3.selectAll(".chart").html(null)
@@ -175,7 +189,7 @@ const BlogPost = props => {
       {/* <Subtitle>{subtitle}</Subtitle> */}
       <BodyWrapper>
         <HeaderWrapper>
-          <Date>{date}</Date>
+          <DateWrapper>{date}</DateWrapper>
           {categories.map((category, index) => (
             <Category key={category}>
               {index ? ", " : ""}
@@ -200,7 +214,6 @@ const BlogPost = props => {
       </BodyWrapper>
 
       <Footer />
-      {/* <span dangerouslySetInnerHTML={{__html:`<script></script>`}} */}
     </div>
   )
 }
@@ -303,8 +316,6 @@ const allLegendKeys = [
   "Total Sleep in Bed (deep + light + rem + wake)",
 ]
 
-const tooltip = d3.select("body").append("div").attr("class", `tooltip`)
-
 const WINTER = "Winter",
   SPRING = "Spring",
   SUMMER = "Summer",
@@ -334,7 +345,7 @@ const displayLineGraph = (id, data) => {
     document.body.clientWidth
 
   const lineGraphWidth = width >= 750 ? width - 225 : width - 75
-  console.log(lineGraphWidth)
+  const tooltip = d3.select("body").append("div").attr("class", `tooltip`)
 
   let keys = $(`#${id}`).data().value
   keys = keys ? keys.split(" ") : allDataKeys
@@ -689,7 +700,7 @@ const addPercentage = data => {
 }
 
 const getSeason = date => {
-  const tempDate = new window.Date(date)
+  const tempDate = new Date(date)
   const dateVal = tempDate.getMonth() * 100 + tempDate.getDate()
 
   if (seasons[SPRING].start <= dateVal && dateVal <= seasons[SPRING].end)
@@ -744,6 +755,7 @@ const displayBarGraph = (id, barData) => {
 
   const widthWithMargin = height - margin.left
   const heightWithMargin = height
+  const tooltip = d3.select("body").append("div").attr("class", `tooltip`)
 
   let keys = $(`#${id}`).data().value
   keys = keys ? keys.split(" ") : allDataKeys
@@ -833,6 +845,8 @@ const displayPieChart = (id, pieData) => {
   //   window.innerWidth ||
   //   document.documentElement.clientWidth ||
   //   document.body.clientWidth
+
+  const tooltip = d3.select("body").append("div").attr("class", `tooltip`)
 
   let keys = $(`#${id}`).data().value
   keys = keys ? keys.split(" ") : allDataKeys

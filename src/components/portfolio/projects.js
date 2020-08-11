@@ -18,9 +18,6 @@ const HeaderWrapper = styled.h3`
 
 const ProjectsLinkWrapper = styled.div`
   text-align: center;
-  a:hover {
-    color: #a9a9a9;
-  }
 `
 
 const ProjectWrapper = styled.div`

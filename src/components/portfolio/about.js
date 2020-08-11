@@ -4,11 +4,13 @@ import Image from "gatsby-image"
 import styled from "styled-components"
 import Fade from "react-reveal/Fade"
 
+import LinkWrapper from "../linkWrapper"
+
 const SectionWrapper = styled.section`
   display: block;
   width: 67vw;
   margin: auto;
-  padding: 75px 0;
+  padding: 100px 0;
 `
 const FlexBox = styled.div`
   display: flex;
@@ -82,7 +84,34 @@ const About = () => {
           </ImageWrapper>
           <TextWrapper>
             <HeaderWrapper>ABOUT</HeaderWrapper>
-            <Description>{data.site.siteMetadata.description}</Description>
+            <Description>
+              <div>{data.site.siteMetadata.description}</div>
+              <br />
+              Some fun facts about me:
+              <ul>
+                <li>I love pop + metal music — with a side of rock</li>
+                <li>
+                  Cheese, asparagus, noodles, cheesecake, or any kind of cake —
+                  yum
+                </li>
+                <li>
+                  <LinkWrapper to="/post/a-bit-about-my-fit/">
+                    I nearly walked + ran the distance of a marathon in one day
+                  </LinkWrapper>
+                </li>
+                <li>
+                  My <LinkWrapper to="/post/havah/">best friend</LinkWrapper>{" "}
+                  and I wrote an (unpublished) 60k - 70k word novel in middle
+                  school
+                </li>
+                <li>I was vegetarian for two years</li>
+                <li>
+                  The thing I'm most scared of never reaching my full potential,
+                  whether it's regret over missing opportunities or not enjoying
+                  my life until it's too late
+                </li>
+              </ul>
+            </Description>
           </TextWrapper>
         </FlexBox>
       </Fade>

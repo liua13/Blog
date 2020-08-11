@@ -34,6 +34,10 @@ a {
   color: #8a4baf; /* or #653399 */
 }
 
+a:hover {
+  color: #a9a9a9;
+}
+
 ul {
   padding-left: 40px;
 }
