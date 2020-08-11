@@ -91,8 +91,8 @@ const About = () => {
               <ul>
                 <li>I love pop + metal music — with a side of rock</li>
                 <li>
-                  Cheese, asparagus, noodles, cheesecake, or any kind of cake —
-                  yum
+                  Cheese, asparagus, noodles, cheesecake, or any kind of cake
+                  are my favorites — yum
                 </li>
                 <li>
                   <LinkWrapper to="/post/a-bit-about-my-fit/">
