@@ -8,7 +8,7 @@ import LinkWrapper from "../linkWrapper"
 
 const SectionWrapper = styled.section`
   display: block;
-  width: 67vw;
+  width: 80vw;
   margin: auto;
   padding: 100px 0;
 `

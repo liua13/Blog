@@ -35,7 +35,7 @@ const SiteName = styled.p`
 const Header = () => {
   const image = useStaticQuery(graphql`
     query {
-      background: file(relativePath: { eq: "background.png" }) {
+      background: file(relativePath: { eq: "background.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
