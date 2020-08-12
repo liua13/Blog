@@ -1,5 +1,14 @@
 [
   {
+    "id": "personalwebsite",
+    "date": "constantly updating",
+    "title": "Personal Website + Blog",
+    "image": "PersonWebsite.jpg",
+    "link": "https://annieliu.me",
+    "description": "The site you are looking at right now! It was originally <a href='https://github.com/liua13/Blog/tree/version1' target='_blank'>built using Jekyll</a> but I <a href='https://github.com/liua13/Blog/tree/version2' target='_blank'>rebuilt it with Gatsby + React</a> during quarantine to make my website load faster and make it easier to develop more features for my blog. Enjoy my drawing of myself — and please, don't comment on the teeth.",
+    "technologies": "Gatsby, React, GraphQL"
+  },
+  {
     "id": "lyricalnotes",
     "date": "jul 2020",
     "title": "Lyrical Notes",
@@ -15,7 +24,7 @@
     "image": "Mapping.png",
     "caption": "Internship @ Kupenda for the Children",
     "link": "https://mapping-vis.herokuapp.com/",
-    "description": "An interactive map with a filter based on user-selected properties and a feature that allows the user to find the closest facilities from any marker. Meant to help save the lives of hundreds of disabled children living in Kenya at high risk of falling through the cracks and change policies regarding these issues. <a class='link' href='https://mapping-vis.herokuapp.com/'>Demo with mock data</a>",
+    "description": "An interactive map with a filter based on user-selected properties and a feature that allows the user to find the closest facilities from any marker. Projected to help save the lives of 1000+ disabled children living in Kenya and start conversations around policies to help those at high risk of falling through the cracks. Estimated to save hundreds of hours for Kenyan community leaders every year. <a class='link' href='https://mapping-vis.herokuapp.com/'>Demo with mock data</a>",
     "technologies": "Leaflet, Node"
   },
   {
@@ -25,7 +34,7 @@
     "image": "CreativeLearning.jpg",
     "caption": "UROP @ MIT Media Lab (Lifelong Kindergarten Group)",
     "link": "https://www.media.mit.edu/groups/lifelong-kindergarten/overview/",
-    "description": "A creative learning tool to help teachers and educators work and learn more creatively and interactively, since current tools do not address the issues that they face.",
+    "description": "A creative learning tool to help educators/teachers lesson plan in a more creative and interactive way, since current tools do not address the issues that they face.",
     "technologies": "HTML, CSS, Javascript (jQuery, Node.js, EJS), MongoDB, Mongoose"
   },
   {
@@ -45,7 +54,7 @@
     "image": "Regeneron.jpg",
     "link": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/STS/2019/STS%202019%20Scholar%20Book.pdf#page=15",
     "caption": "Regeneron STS Scholar (formerly Intel Science Talent Search Semifinalist)",
-    "description": "A machine learning model for protein subcellular localization predictions to help identify drug targets and contribute to drug repurposing efforts for many protein dysfunctional diseases, including cancer, asthma, and Alzheimer's.",
+    "description": "A machine learning model to predict the locations of proteins using image processing, random forest classifiers, and CNNs. Aimed at drug repurposing for protein dysfunctional diseases, including cancer, asthma, and Alzheimer's. I wrote a 16 page research paper which I submitted to a math + science competition and was named one of the 300 Regeneron STS 2019 Scholars (formerly Intel Science Talent Search Semifinalist).",
     "technologies": "Python (Scikit-learn, TensorFlow, Keras)"
   }
 ]

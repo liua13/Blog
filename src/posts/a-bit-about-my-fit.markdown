@@ -75,8 +75,7 @@ I wasn't too concerned about when a specific season started or ended, so I just 
 - Fall: Sep 21 - Dec 20
 - Winter: Dec 21 - Mar 20
 
-My spring data is kind of skewed because of COVID, but I do believe that the general trend is true. I'm more active in the fall and winter because of track and the fact that I'm around people all the
-time, which makes it easier to make plans. School's still in season in the spring, but I used to suffer horrible allergies. It's interesting that my resting heart beat is also higher in the fall, when fall is when I'm the most active. I wonder how the data will change this fall, when I'm studying remotely.
+My spring data is kind of skewed because of COVID, but I do believe that the general trend is true. I'm more active in the fall and winter because of track and the fact that I'm around people all the time, which makes it easier to make plans. School's still in season in the spring, but I used to suffer horrible allergies. It's interesting that my resting heart beat is also higher in the fall, when fall is when I'm the most active. I wonder how the data will change this fall, when I'm studying remotely.
 
 The amount of sleep I get across the seasons are pretty consistent, but I'm still a bit surprised that my hours in the summer are less than any other season; I actually expected the complete opposite since I generally have more time when school is out. I can only speculate, but my theory is that being more active combined with <a href="https://www.bbc.com/future/article/20180815-why-sleep-should-be-every-students-priority" target="_blank">learning means my need for sleep is greater</a>, which explains why I'm tired all the time during school, even when the data shows that I get more sleep.
 
