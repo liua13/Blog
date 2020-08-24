@@ -88,7 +88,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     node.frontmatter.categories.forEach(category => {
       if (category in allCategories) {
-        allCategories[category].append(node)
+        allCategories[category].push(node)
       } else {
         allCategories[category] = [node]
       }
