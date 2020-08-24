@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   }
 
   vertical-align: top;
-  height: 540px;
+  height: 520px;
 `
 
 const ImageComponent = styled(Image)`

@@ -4,7 +4,7 @@
     "date": "constantly updating",
     "title": "Personal Website + Blog",
     "image": "PersonWebsite.jpg",
-    "link": "https://annieliu.me",
+    "link": "/",
     "description": "The site you are looking at right now! It was originally <a href='https://github.com/liua13/Blog/tree/version1' target='_blank'>built using Jekyll</a> but I <a href='https://github.com/liua13/Blog/tree/version2' target='_blank'>rebuilt it with Gatsby + React</a> during quarantine to make my website load faster and make it easier to develop more features for my blog. Enjoy my drawing of myself — and please, don't comment on the teeth.",
     "technologies": "Gatsby, React, GraphQL"
   },
@@ -24,7 +24,7 @@
     "image": "Mapping.png",
     "caption": "Internship @ Kupenda for the Children",
     "link": "https://mapping-vis.herokuapp.com/",
-    "description": "An interactive map with a filter based on user-selected properties and a feature that allows the user to find the closest facilities from any marker. Projected to help save the lives of 1000+ disabled children living in Kenya and start conversations around policies to help those at high risk of falling through the cracks. Estimated to save hundreds of hours for Kenyan community leaders every year. <a class='link' href='https://mapping-vis.herokuapp.com/'>Demo with mock data</a>",
+    "description": "An interactive map with a filter based on user-selected properties and a feature that allows the user to find the closest facilities from any marker. <a class='link' href='https://mapping-vis.herokuapp.com/'>Demo with mock data</a>",
     "technologies": "Leaflet, Node"
   },
   {
@@ -54,7 +54,7 @@
     "image": "Regeneron.jpg",
     "link": "https://sspcdn.blob.core.windows.net/files/Documents/SEP/STS/2019/STS%202019%20Scholar%20Book.pdf#page=15",
     "caption": "Regeneron STS Scholar (formerly Intel Science Talent Search Semifinalist)",
-    "description": "A machine learning model to predict the locations of proteins using image processing, random forest classifiers, and CNNs. Aimed at drug repurposing for protein dysfunctional diseases, including cancer, asthma, and Alzheimer's. I wrote a 16 page research paper which I submitted to a math + science competition and was named one of the 300 Regeneron STS 2019 Scholars (formerly Intel Science Talent Search Semifinalist).",
+    "description": "A machine learning model to predict the locations of proteins using image processing, ensemble learning, and CNNs; aimed at drug repurposing for protein dysfunctional diseases (cancer, asthma, Alzheimer's, etc). I submitted a 14 page research paper to Regeneron STS 2019 (formerly <i>Intel Science Talent Search Semifinalist</i>) and was named one of the 300 Scholars out of 1,964 total entrants.",
     "technologies": "Python (Scikit-learn, TensorFlow, Keras)"
   }
 ]

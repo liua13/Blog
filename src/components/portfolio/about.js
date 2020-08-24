@@ -91,12 +91,12 @@ const About = () => {
               <ul>
                 <li>I love pop + metal music — with a side of rock</li>
                 <li>
-                  Cheese, asparagus, noodles, cheesecake, or any kind of cake
-                  are my favorites — yum
+                  My favorite foods include cheese, blueberries, asparagus,
+                  noodles, cheesecake, or any kind of cake — yum
                 </li>
                 <li>
                   <LinkWrapper to="/post/a-bit-about-my-fit/">
-                    I nearly walked + ran the distance of a marathon in one day
+                    I nearly walked / ran the distance of a marathon in one day
                   </LinkWrapper>
                 </li>
                 <li>
