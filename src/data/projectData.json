@@ -14,7 +14,7 @@
     "title": "Real Time Chat App",
     "image": "ChatApp.jpg",
     "link": "https://github.com/liua13/private_messaging",
-    "description": "A multi-person real-time private messaging chat application, where you can send messages privately to any user who is also registered and the recipieint receives the message in real time if they are logged in. Works like any messaging chat application (iMessage, Messenger, etc).",
+    "description": "A multi-person real-time private messaging chat application. A registered user can send messages privately to any user who is also registered and the recipient receives the message in real time if they are logged in. Works like any messaging chat application (iMessage, Messenger, etc).",
     "technologies": "Node, Jinja, PostgreSQL, Socket.io"
   },
   {
