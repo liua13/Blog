@@ -89,7 +89,6 @@ const About = () => {
               <br />
               Some fun facts about me:
               <ul>
-                <li>I love pop + metal music — with a side of rock</li>
                 <li>
                   My favorite foods include cheese, blueberries, asparagus,
                   noodles, cheesecake, or any kind of cake — yum
