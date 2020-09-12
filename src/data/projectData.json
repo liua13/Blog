@@ -5,7 +5,7 @@
     "title": "Personal Website + Blog",
     "image": "PersonWebsite.jpg",
     "link": "/",
-    "description": "The site you are looking at right now! It was originally <a href='https://github.com/liua13/Blog/tree/version1' target='_blank'>built using Jekyll</a> but I <a href='https://github.com/liua13/Blog/tree/version2' target='_blank'>rebuilt it with Gatsby + React</a> during quarantine to make my website load faster and make it easier to develop more features for my blog. Enjoy my drawing of myself — and please, don't comment on the teeth.",
+    "description": "The site you are looking at right now! It was originally <a href='https://github.com/liua13/Blog/tree/version1' target='_blank'>built using Jekyll</a> but I <a href='https://github.com/liua13/Blog/tree/version2' target='_blank'>rebuilt it with Gatsby + React</a> during quarantine to make my website load faster and make it easier to develop more features for my blog. Enjoy my drawing of myself — but please, don't comment on the teeth.",
     "technologies": "Gatsby, React, GraphQL"
   },
   {

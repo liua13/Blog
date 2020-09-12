@@ -13,6 +13,8 @@ const NavWrapper = styled.nav`
   display: block;
   width: 100%;
   background-color: black;
+  font-size: 17px;
+
   a {
     color: white;
     text-transform: uppercase;
@@ -35,6 +37,10 @@ const NavWrapper = styled.nav`
   a:hover:after {
     width: 100%;
   }
+
+  // @media (max-width: 400px) {
+  //   font-size: 14px;
+  // }
 `
 
 const Nav = () => {

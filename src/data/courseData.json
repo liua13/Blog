@@ -1,0 +1,42 @@
+[
+  {
+    "term": "Fall 2020",
+    "courses": [
+      ["6.006", "Introduction to Algorithms"],
+      ["6.036", "Introduction to Machine Learning", "Python"],
+      ["6.004", "Computation Structures", "Assembly / RISC-V"],
+      ["11.074", "Cybersecurity Clinic"],
+      ["21W.755", "Writing and Reading Short Stories"]
+    ]
+  },
+  {
+    "term": "Spring 2020",
+    "courses": [
+      ["6.009", "Fundamentals of Programming", "Python"],
+      ["6.042", "Mathematics of Programming"],
+      ["14.01", "Principles of Microeconomics"],
+      ["8.02", "Physics II: Electricity and Magnetism"]
+    ]
+  },
+  {
+    "term": "IAP 2020",
+    "courses": [["6.145", "Introduction to Python", "Python"]]
+  },
+  {
+    "term": "Fall 2019",
+    "courses": [
+      ["18.02", "Multivariable Calculus"],
+      ["5.111", "Principles of Chemical Science"],
+      ["7.012", "Introduction to Biology"],
+      ["24.02", "Moral Problems and the Good Life"]
+    ]
+  },
+  {
+    "term": "High School",
+    "courses": [
+      ["", "App Development", "Android Studio"],
+      ["", "AP Computer Science", "5"],
+      ["", "Introduction to Programming", "Python"]
+    ]
+  }
+]

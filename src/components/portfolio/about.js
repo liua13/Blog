@@ -43,7 +43,7 @@ const TextWrapper = styled.div`
 
 const HeaderWrapper = styled.h3`
   text-align: center;
-  font-size: 35px;
+  font-size: 24px;
   margin-top: -30px;
 
   @media (max-width: 976px) {
@@ -83,12 +83,24 @@ const About = () => {
             <ImageComponent fluid={data.favicon.childImageSharp.fluid} />
           </ImageWrapper>
           <TextWrapper>
-            <HeaderWrapper>ABOUT</HeaderWrapper>
+            <HeaderWrapper>{data.site.siteMetadata.description}</HeaderWrapper>
             <Description>
-              <div>{data.site.siteMetadata.description}</div>
+              <div>
+                I'm extremely interested in how technology can tell us more
+                about ourselves and better inform the decisions we make in our
+                lives. I love completing projects and learning new things along
+                the way! Other than coding, I enjoy writing, running, rock
+                climbing, and listening to music.
+              </div>
               <br />
               Some fun facts about me:
               <ul>
+                <li>I'm planning on minoring in writing!</li>
+                <li>
+                  Speaking of writing, my{" "}
+                  <LinkWrapper to="/post/havah/">best friend</LinkWrapper> and I
+                  wrote an (unpublished) 60k - 70k word novel in middle school
+                </li>
                 <li>
                   My favorite foods include cheese, blueberries, asparagus,
                   noodles, cheesecake, or any kind of cake — yum
@@ -98,11 +110,7 @@ const About = () => {
                     I nearly walked / ran the distance of a marathon in one day
                   </LinkWrapper>
                 </li>
-                <li>
-                  My <LinkWrapper to="/post/havah/">best friend</LinkWrapper>{" "}
-                  and I wrote an (unpublished) 60k - 70k word novel in middle
-                  school
-                </li>
+
                 <li>I was vegetarian for two years</li>
                 <li>
                   I'm most scared of never reaching my fullest potential,

@@ -1,0 +1,28 @@
+[
+  {
+    "section": "Undergraduate",
+    "activities": [
+      {
+        "activity": "TechTogether Boston",
+        "description": "Boston's largest female, femme, and non-binary hackathon! I'm on the Tech Team, where I'm helping build the <a href='http://boston.techtogether.io/' target='_blank'>2020 virtual hackathon website</a>."
+      },
+      {
+        "activity": "Rewriting the Code Fellowship",
+        "description": "A community of female and non-binary undergraduate and masters students studying computer science / engineering who are interested in industry experience in tech."
+      },
+      { "temp": "MIT TechX", "description": "" },
+      {
+        "activity": "MIT CodeIt",
+        "description": "An educational outreach program that introduces female and non-binary middle school students to computer science. We help with any CS questions they may have and serve as mentors + role models :)"
+      },
+      {
+        "temp": "First Generation + Low Income Program",
+        "description": ""
+      },
+      {
+        "activity": "MIT Global Health Alliance",
+        "description": "A multi-college student-run organization whose mission is to advocate for health equity and social justice in a global context. I'm part of the Events Team, where I help plan one large event/conference a semester to raise awareness and fundraise."
+      }
+    ]
+  }
+]
