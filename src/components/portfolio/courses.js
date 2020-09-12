@@ -1,5 +1,7 @@
 import React from "react"
 import styled from "styled-components"
+import Fade from "react-reveal/Fade"
+
 import courseData from "../../data/courseData.json"
 import activityData from "../../data/activityData.json"
 
@@ -28,23 +30,26 @@ const HeaderWrapper = styled.h3`
 
 const Courses = () => {
   return (
-    <SectionWrapper id="courses">
-      <Column>
-        <HeaderWrapper>COURSES</HeaderWrapper>
-        {courseData.map(course => (
-          <Course term={course.term} courses={course.courses} />
-        ))}
-      </Column>
-      <Column>
-        <HeaderWrapper>ACTIVITIES</HeaderWrapper>
-        {activityData.map(activity => (
-          <Activity
-            section={activity.section}
-            activities={activity.activities}
-          />
-        ))}
-      </Column>
-    </SectionWrapper>
+    <Fade bottom>
+      <SectionWrapper id="courses">
+        <Column>
+          <HeaderWrapper>COURSES</HeaderWrapper>
+          {courseData.map(course => (
+            <Course term={course.term} courses={course.courses} />
+          ))}
+        </Column>
+
+        <Column>
+          <HeaderWrapper>ACTIVITIES</HeaderWrapper>
+          {activityData.map(activity => (
+            <Activity
+              section={activity.section}
+              activities={activity.activities}
+            />
+          ))}
+        </Column>
+      </SectionWrapper>
+    </Fade>
   )
 }
 

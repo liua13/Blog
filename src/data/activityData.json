@@ -24,5 +24,22 @@
         "description": "A multi-college student-run organization whose mission is to advocate for health equity and social justice in a global context. I'm part of the Events Team, where I help plan one large event/conference a semester to raise awareness and fundraise."
       }
     ]
+  },
+  {
+    "section": "Technical Programs",
+    "activities": [
+      {
+        "activity": "Google CSSI-Coursera (2019)",
+        "description": "An invite-only online Google CSSI program through Coursera. As part of Google's Data Structures and Algorithms curriculum, I took the Algorithmic Toolbox course (divide and conquer techniques, greedy algorithms, dynamic programming)"
+      },
+      {
+        "activity": "MIT Beaverworks Summer Institute (2018)",
+        "description": "A six month online course followed by four weeks on MIT campus exploring the intersection of data science and health through machine learning. We worked in groups alongside Cambridge-area clinicians and data scientists to gain hands-on experience applying advanced machine learning and data mining techniques to solve real-world medical challenges."
+      },
+      {
+        "activity": "Girls Who Code Summer Immersion Program (2017)",
+        "description": "A seven week summer program introducing girls to computer science."
+      }
+    ]
   }
 ]
