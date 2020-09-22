@@ -19,7 +19,6 @@ const Column = styled.div`
 
   @media (max-width: 750px) {
     width: 100%;
-    border: 1px solid red;
   }
 `
 
@@ -132,8 +131,8 @@ const Activity = ({ section, activities }) => {
           {activity["activity"] ? (
             <ActivityName>{activity["activity"]}</ActivityName>
           ) : (
-            ""
-          )}
+              ""
+            )}
           <ActivityDescription
             dangerouslySetInnerHTML={{ __html: activity["description"] }}
           ></ActivityDescription>
