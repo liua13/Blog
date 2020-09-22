@@ -88,7 +88,7 @@ const About = () => {
               <div>
                 I'm extremely interested in how technology can tell us more
                 about ourselves and better inform the decisions we make in our
-                lives. I love completing projects and learning new things along
+                lives. I love learning and completing projects along
                 the way! Other than coding, I enjoy writing, running, rock
                 climbing, and listening to music.
               </div>
