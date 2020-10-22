@@ -115,17 +115,17 @@ const BlogPost = props => {
         d3.json(data_vis[0])
           .then(oldData => {
             // when data was last updated
-            let lastUpdated = new Date() - new Date(oldData[0])
-            const minutes = lastUpdated / (1000 * 60)
-            lastUpdated =
-              minutes < 60
-                ? Math.round(minutes) === 1
-                  ? `${Math.round(minutes)} minute`
-                  : `${Math.round(minutes)} minutes`
-                : Math.round(minutes / 60) === 1
-                ? `${Math.round(minutes / 60)} hour`
-                : `${Math.round(minutes / 60)} hours`
-            $("#lastUpdated").html(`about ${lastUpdated} ago`)
+            // let lastUpdated = new Date() - new Date(oldData[0])
+            // const minutes = lastUpdated / (1000 * 60)
+            // lastUpdated =
+            //   minutes < 60
+            //     ? Math.round(minutes) === 1
+            //       ? `${Math.round(minutes)} minute`
+            //       : `${Math.round(minutes)} minutes`
+            //     : Math.round(minutes / 60) === 1
+            //     ? `${Math.round(minutes / 60)} hour`
+            //     : `${Math.round(minutes / 60)} hours`
+            // $("#lastUpdated").html(`about ${lastUpdated} ago`)
 
             let data = oldData[1].map(element => {
               const newDate = element.date.split("T")[0]

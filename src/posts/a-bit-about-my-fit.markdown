@@ -32,7 +32,7 @@ The three main fields I decided to focus on are:
 A few things to keep in mind:
 
 - All data was queried using Fitbit's Web API for the past two or so years and normalized to [0,1] — because one, to more easily fit multiple lines in one chart, and two, safety: _anything you put online is forever_
-- All data was updated <span id="lastUpdated">on August 10</span> and this blog post was written on August 10, 2020, so the contents of this page may not necessarily reflect on what the current data presents
+- All data was updated on September 6<sup>rd</sup> and this blog post was written on August 10, 2020, so the contents of this page may not necessarily reflect on what the current data presents
 - Some dates may be missing data because I forgot to wear my Fitbit, it ran out of battery, or any one of the three fields listed above are missing data
 - Hover over the graphs and legends (sorry mobile folks — hover doesn't work on mobile)
 
