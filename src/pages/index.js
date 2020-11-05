@@ -11,10 +11,10 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Hi!" />
-      <Header />
-
+      {/* <Header /> */}
+      <div style={{ margin: "75px" }}></div>
       <About />
-      <Projects />
+      {/* <Projects /> */}
       {/* <Courses /> */}
     </Layout>
   )
