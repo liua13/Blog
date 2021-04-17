@@ -85,31 +85,25 @@ const About = () => {
           <TextWrapper>
             <HeaderWrapper>{data.site.siteMetadata.description}</HeaderWrapper>
             <Description>
-              {/* <div>
+              <div>
                 I'm extremely interested in how technology can tell us more
                 about ourselves and better inform the decisions we make in our
                 lives. I love learning and completing projects along
                 the way! Other than coding, I enjoy writing, running, rock
                 climbing, and listening to music.
-              </div> */}
+              </div>
               <br />
-              <br />
-              <br />
-              I'm a sophomore at MIT majoring in computer science with a potential minor in writing. Some fun facts about me:
+              Some fun facts about me:
               <ul>
-                {/* <li>I'm planning on minoring in writing!</li> */}
+                <li>I'm planning on minoring in writing!</li>
                 <li>
                   Speaking of writing, my{" "}
                   <LinkWrapper to="/post/havah/">best friend</LinkWrapper> and I
                   wrote an (unpublished) 60k - 70k word novel in middle school
                 </li>
                 <li>
-                  I enjoy long walks, so let me know if you'd like to come with me (except, sadly, not in the rain — rain check, please!)
-                </li>
-                <li>
                   My favorite foods include cheese, blueberries, asparagus,
-                  noodles, cheesecake — yum!
-
+                  noodles, cheesecake, or any kind of cake — yum
                 </li>
                 <li>
                   <LinkWrapper to="/post/a-bit-about-my-fit/">
@@ -117,12 +111,12 @@ const About = () => {
                   </LinkWrapper>
                 </li>
 
-                <li>I was vegetarian for two years — and currently am!</li>
-                {/* <li>
+                <li>I was vegetarian for two years</li>
+                <li>
                   I'm most scared of never reaching my fullest potential,
                   whether it's regret over missed opportunities or not enjoying
                   my life until it's too late
-                </li> */}
+                </li>
               </ul>
             </Description>
           </TextWrapper>
