@@ -104,11 +104,12 @@ const About = () => {
                   wrote an (unpublished) 60k - 70k word novel in middle school
                 </li>
                 <li>
-                  I enjoy long walks, so let me know if you ever want to come with me (except, sadly, not in the rain — rain check, please!)
+                  I enjoy long walks, so let me know if you'd like to come with me (except, sadly, not in the rain — rain check, please!)
                 </li>
                 <li>
                   My favorite foods include cheese, blueberries, asparagus,
-                  noodles, cheesecake, or any kind of cake — yum!
+                  noodles, cheesecake — yum!
+
                 </li>
                 <li>
                   <LinkWrapper to="/post/a-bit-about-my-fit/">
