@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `I'm Annie Liu`,
-    description: `Hi, I'm Annie Liu (she/her/hers), a Computer Science student at MIT graduating in
-      May 2023!`,
+    description: `Hi, I'm Annie Liu (she/her/hers)!`,
     author: `Annie Liu`,
   },
   plugins: [
