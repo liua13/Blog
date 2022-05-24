@@ -97,23 +97,30 @@ const About = () => {
               </div> */}
               <br />
               <br />
-              I'm a junior at MIT studying computer science with a potential minor in creative writing. Some fun facts about me include:
+              I'm a junior at MIT studying computer science. Some fun facts about me include:
               <ul>
                 {/* <li>I'm planning on minoring in writing!</li> */}
-                <li>
+                {/* <li>
                   My{" "}
                   <LinkWrapper to="/post/havah/">friend</LinkWrapper> and I
                   wrote an (unpublished) 60k - 70k word novel in middle school
-                </li>
-                <li>
-                  My favorite foods include brussel sprouts, asparagus, mushrooms, noodles, cheesecake, blueberries, or any kind of fruit — yum!
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <LinkWrapper to="/post/a-bit-about-my-fit/">
-                    I nearly walked / ran the distance of a marathon in one day
+                    I unintentionally covered the distance of a marathon in a day
                   </LinkWrapper>
+                </li> */}
+                <li>
+                    My tastebuds gravitate towards blueberries, watermelon, bell peppers, salmon-- 
+                    all kind of fruits, vegetables, and seafood, really
                 </li>
-                <li>I'm currently vegetarian!</li>
+                <li>
+                    I love walks with good music or good conversations:)
+                </li>
+                <li>
+                    My childhood dream was to be an author, but it's 
+                    been placed on the backburner for now; writing's hard
+                </li>
                 {/* <li>
                   I'm most scared of never reaching my fullest potential,
                   whether it's regret over missed opportunities or not enjoying
