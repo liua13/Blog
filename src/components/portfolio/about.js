@@ -97,7 +97,7 @@ const About = () => {
               </div> */}
               <br />
               <br />
-              I'm a junior at MIT studying computer science. Some fun facts about me include:
+              I'm a senior at MIT studying computer science. Some fun facts about me include:
               <ul>
                 {/* <li>I'm planning on minoring in writing!</li> */}
                 {/* <li>
@@ -111,16 +111,20 @@ const About = () => {
                   </LinkWrapper>
                 </li> */}
                 <li>
-                    My tastebuds gravitate towards blueberries, watermelon, bell peppers, salmon-- 
-                    all kind of fruits, vegetables, and seafood, really
+                    My favorite color is purple!
                 </li>
                 <li>
                     I love walks with good music or good conversations:)
                 </li>
                 <li>
+                    I'm right-handed, but sometime in middle school, I wanted to write with my left hand 
+                    and spent the better of a month writing with my left hand. My left hand writing 
+                    isn't amazing, but I'd say it's legible.
+                </li>
+                {/* <li>
                     My childhood dream was to be an author, but it's 
                     been placed on the backburner for now; writing's hard
-                </li>
+                </li> */}
                 {/* <li>
                   I'm most scared of never reaching my fullest potential,
                   whether it's regret over missed opportunities or not enjoying
