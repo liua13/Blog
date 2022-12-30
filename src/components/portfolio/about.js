@@ -117,9 +117,7 @@ const About = () => {
                     I love walks with good music or good conversations:)
                 </li>
                 <li>
-                    I'm right-handed, but sometime in middle school, I wanted to write with my left hand 
-                    and spent the better of a month writing with my left hand. My left hand writing 
-                    isn't amazing, but I'd say it's legible.
+                    I'm right-handed, but I can throw a ball better and can write decently with my left!
                 </li>
                 {/* <li>
                     My childhood dream was to be an author, but it's 
